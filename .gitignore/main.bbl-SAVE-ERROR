@@ -1,0 +1,357 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Administrateur}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.blocsdecompetences.org/metier/M1701}}
+      \field{note}{consulté le: 2024-02-30}
+      \field{title}{Administrateur des ventes}
+    \endentry
+    \entry{atlas}{misc}{}{}
+      \field{sortinit}{a}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.mongodb.com/docs/atlas/}}
+      \field{note}{consulté le: 2024-05-14}
+      \field{title}{atlas}
+    \endentry
+    \entry{bonl}{misc}{}{}
+      \field{sortinit}{b}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.zervant.com/fr/blog/modele-bon-de-livraison/}}
+      \field{note}{consulté le: 2024-02-20}
+      \field{title}{bon de livraison}
+    \endentry
+    \entry{bonr}{misc}{}{}
+      \field{sortinit}{b}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://wiki.gestan.fr/doku.php?id=wiki:v15:facturation:fournisseur:brecept}}
+      \field{note}{consulté le: 2024-02-20}
+      \field{title}{bon de reception}
+    \endentry
+    \entry{Bootstrap}{misc}{}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)}}
+      \field{note}{consulté le: 2024-05-25}
+      \field{title}{Bootstrap}
+    \endentry
+    \entry{bordereau}{misc}{}{}
+      \field{sortinit}{b}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ibm.com/docs/fr/warehouse-management/9.4.0?topic=prints-packing-slip}}
+      \field{note}{consulté le: 2024-02-20}
+      \field{title}{bordereau des marchandises}
+    \endentry
+    \entry{Consommateur}{misc}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fr.wikipedia.org/wiki/Consommateur}}
+      \field{note}{consulté le: 2024-02-30}
+      \field{title}{Consommateur}
+    \endentry
+    \entry{activite}{misc}{}{}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-dactivite-uml}}
+      \field{note}{consulté le: 2024-03-30}
+      \field{title}{diagramme d'activite}
+    \endentry
+    \entry{usecas}{misc}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ionos.fr/digitalguide/sites-internet/developpement-web/diagramme-de-cas-de-utilisation/}}
+      \field{note}{consulté le: 2024-04-15}
+      \field{title}{Diagramme de cas d'utilisation}
+    \endentry
+    \entry{séquenced}{misc}{}{}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ibm.com/docs/fr/rsm/7.5.0?topic=uml-sequence-diagrams}}
+      \field{note}{consulté le: 2024-04-28}
+      \field{title}{diagrammes de séquence détaillés}
+    \endentry
+    \entry{séquences}{misc}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-de-sequence-uml}}
+      \field{note}{consulté le: 2024-04-20}
+      \field{title}{Diagrammes de séquences}
+    \endentry
+    \entry{Djawahirsoft}{misc}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.djawahirsoft.com/index.html}}
+      \field{note}{consulté le: 2024-03-05}
+      \field{title}{Djawahirsoft}
+    \endentry
+    \entry{drawio}{misc}{}{}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.drawio.com/about}}
+      \field{note}{consulté le: 2024-05-10}
+      \field{title}{draw.io}
+    \endentry
+    \entry{1}{misc}{}{}
+      \field{sortinit}{é}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://espacestrategies.com/ecosystemes-daffaires-comment-ca-marche/}}
+      \field{note}{consulté le: 2024-02-10}
+      \field{title}{écosystéme commercial}
+    \endentry
+    \entry{electron}{misc}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.electronjs.org/}}
+      \field{note}{consulté le: 2024-05-11}
+      \field{title}{Electron.js}
+    \endentry
+    \entry{express}{misc}{}{}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/Express.js}}
+      \field{note}{consulté le: 2024-05-25}
+      \field{title}{express.js}
+    \endentry
+    \entry{facturev}{misc}{}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.manager-go.com/vente/etablir-une-facture.htm}}
+      \field{note}{consulté le: 2024-02-20}
+      \field{title}{Facture de vente}
+    \endentry
+    \entry{Facturep}{misc}{}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.appvizer.fr/magazine/finance-comptabilite/facturation/facture-proforma}}
+      \field{note}{consulté le: 2024-02-20}
+      \field{title}{Facture preforma}
+    \endentry
+    \entry{css}{misc}{}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade}}
+      \field{note}{consulté le: 2024-05-10}
+      \field{title}{Feuilles de style en cascade}
+    \endentry
+    \entry{figma}{misc}{}{}
+      \field{sortinit}{f}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fr.wikipedia.org/wiki/Figma}}
+      \field{note}{consulté le: 2024-05-13}
+      \field{title}{figma}
+    \endentry
+    \entry{flux}{misc}{}{}
+      \field{sortinit}{f}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-de-flux-de-donnees}}
+      \field{note}{consulté le: 2024-02-12}
+      \field{title}{flux de donnees}
+    \endentry
+    \entry{Bonc}{misc}{}{}
+      \field{sortinit}{f}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-de-flux-de-donnees}}
+      \field{note}{consulté le: 2024-02-20}
+      \field{title}{flux de donnees}
+    \endentry
+    \entry{Gestionnaire}{misc}{}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.leparisien.fr/etudiant/orientation/guide-metiers/metier-gestionnaire-de-stocks/}}
+      \field{note}{consulté le: 2024-02-27}
+      \field{title}{Gestionnaire de stock}
+    \endentry
+    \entry{git}{misc}{}{}
+      \field{sortinit}{g}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fr.wikipedia.org/wiki/Git}}
+      \field{note}{consulté le: 2024-05-13}
+      \field{title}{git}
+    \endentry
+    \entry{github}{misc}{}{}
+      \field{sortinit}{g}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{www.techtarget.com/searchitoperations/definition/GitHub}}
+      \field{note}{consulté le: 2024-05-13}
+      \field{title}{github}
+    \endentry
+    \entry{js}{misc}{}{}
+      \field{sortinit}{j}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fr.wikipedia.org/wiki/JavaScript}}
+      \field{note}{consulté le: 2024-05-11}
+      \field{title}{javascript}
+    \endentry
+    \entry{journal41}{book}{}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{note}{consulté le: 2024-02-30}
+      \field{title}{JOURNAL OFFICIEL DE LA REPUBLIQUE ALGERIENNE}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb https://www.joradp.dz/HFR/Index.html
+      \endverb
+      \verb{url}
+      \verb https://www.joradp.dz/HFR/Index.html
+      \endverb
+    \endentry
+    \entry{journal80}{book}{}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{note}{consulté le: 2024-02-30}
+      \field{title}{JOURNAL OFFICIEL DE LA REPUBLIQUE ALGERIENNE}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb https://www.joradp.dz/HFR/Index.html
+      \endverb
+      \verb{url}
+      \verb https://www.joradp.dz/HFR/Index.html
+      \endverb
+    \endentry
+    \entry{logistique}{misc}{}{}
+      \field{sortinit}{l}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.supplychaininfo.eu/dossier-supply-chain/missions-de-la-logistique/}}
+      \field{note}{consulté le: 2024-02-25}
+      \field{title}{logistique}
+    \endentry
+    \entry{Magasinier}{misc}{}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.blocsdecompetences.org/metier/N1103}}
+      \field{note}{consulté le: 2024-02-30}
+      \field{title}{Magasinage et préparation de commandes}
+    \endentry
+    \entry{matreal}{misc}{}{}
+      \field{sortinit}{m}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/Material_Design}}
+      \field{note}{consulté le: 2024-05-25}
+      \field{title}{matreal design}
+    \endentry
+    \entry{nodejs}{misc}{}{}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fr.wikipedia.org/wiki/Node.js}}
+      \field{note}{consulté le: 2024-05-11}
+      \field{title}{nodejs}
+    \endentry
+    \entry{Personnel}{misc}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.blocsdecompetences.org/metier/D1505}}
+      \field{note}{consulté le: 2024-02-29}
+      \field{title}{Personnel de caisse}
+    \endentry
+    \entry{reactn}{misc}{}{}
+      \field{sortinit}{r}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/React_Native}}
+      \field{note}{consulté le: 2024-05-25}
+      \field{title}{react native}
+    \endentry
+    \entry{reactjs}{misc}{}{}
+      \field{sortinit}{r}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://react.dev/}}
+      \field{note}{consulté le: 2024-05-11}
+      \field{title}{reactjs}
+    \endentry
+    \entry{reçu}{misc}{}{}
+      \field{sortinit}{r}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://blog.hubspot.fr/sales/recu-de-paiement}}
+      \field{note}{consulté le: 2024-02-20}
+      \field{title}{reçu de paiemen}
+    \endentry
+    \entry{Service}{misc}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://uptoo.fr/emploi/fiche-metier/responsable-commercial/}}
+      \field{note}{consulté le: 2024-02-25}
+      \field{title}{Service commerciale}
+    \endentry
+    \entry{sqlite}{misc}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fr.wikipedia.org/wiki/SQLite}}
+      \field{note}{consulté le: 2024-05-25}
+      \field{title}{SQLite}
+    \endentry
+    \entry{tailwind}{misc}{}{}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fr.wikipedia.org/wiki/Tailwind_CSS}}
+      \field{note}{consulté le: 2024-05-25}
+      \field{title}{tailwindCSS}
+    \endentry
+    \entry{vscode}{misc}{}{}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://fr.wikipedia.org/wiki/Visual_Studio_Code}}
+      \field{note}{consulté le: 2024-05-12}
+      \field{title}{visual studio code}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

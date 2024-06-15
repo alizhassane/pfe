@@ -1,0 +1,90 @@
+\babel@toc {french}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Diagramme de flux de données}}{5}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Diagramme de procedures}}{6}{figure.1.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Schéma expliquant notre système}}{20}{figure.1.3}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de cas d'utilisation général}}{25}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d'utilisation détaillé "visiteur"}}{26}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme de cas d'utilisation détaillé "administrateur"}}{26}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme de cas d'utilisation détaillé "acheteur"}}{27}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme de cas d'utilisation détaillé "vendeur"}}{28}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagramme de séquence du cas d'utilisation "créer un compte"}}{30}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagramme de séquence du cas d'utilisation "authentification"}}{32}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagramme de séquence du cas d'utilisation "devenir un vendeur"}}{33}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagramme de séquence du cas d'utilisation "ajouter produit"}}{35}{figure.2.9}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Diagramme de séquence du cas d'utilisation "ajouter une annonce achat ou vente"}}{37}{figure.2.10}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Diagramme de séquence du cas d'utilisation "modifier une annonce achat ou vente"}}{39}{figure.2.11}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Diagramme de séquence du cas d'utilisation "consulter annonce vente"}}{40}{figure.2.12}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Diagramme de séquence du cas d'utilisation "ajouter au panier"}}{41}{figure.2.13}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Diagramme de séquence du cas d'utilisation "effectuer une commande"}}{42}{figure.2.14}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Diagramme de séquence du cas d'utilisation "valider compte vendeur"}}{44}{figure.2.15}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de séquence du cas d'utilisation "authentification détaillé"}}{47}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de séquence du cas d'utilisation "devenir un grossiste détaillé"}}{48}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramme de séquence du cas d'utilisation "ajouter une annonce détaillé"}}{49}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagramme de séquence du cas d'utilisation "effectuer une commande détaillé"}}{50}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagramme de séquence du cas d'utilisation "contacter détaillé"}}{51}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagramme d'activité "créer compte"}}{52}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme d'activité "authentification"}}{53}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme d'activité "demande devenire vendeur"}}{54}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme d'activité "ajouter une annonce"}}{55}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagramme d'activité "effectuer une commande"}}{56}{figure.3.10}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramme de classe}}{61}{figure.4.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagramme de cas d'utilisation général}}{66}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagramme de cas d'utilisation détailles "superviseur"}}{67}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagramme de cas d'utilisation détailles "responsable des achats"}}{67}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagramme de cas d'utilisation détailles "responsable des ventes"}}{68}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Diagramme de cas d'utilisation détailles "gestionnaire de stock"}}{69}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Diagramme de séquence du cas d'utilisation "ajouter client"}}{71}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Diagramme de séquence du cas d'utilisation "ajouter commande"}}{73}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Diagramme de séquence du cas d'utilisation "imprimer bon de commande"}}{75}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Diagramme de séquence du cas d'utilisation "ajouter un produit au stock"}}{77}{figure.5.9}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagramme d'activité "ajouter utilisateur"}}{80}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagramme d'activité "modifier client"}}{81}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Ddiagramme d'activité "ajouter produit au stock de platforme Web"}}{82}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagramme d'activité "publier une annonce sur la platforme web"}}{83}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Dagramme de séquence du cas d'utilisation "authentification au site détaillé"}}{84}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Diagramme de séquence du cas d'utilisation "etablir commande détaillé"}}{85}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Diagramme de séquence du cas d'utilisation "ajouter un produit au stock de platforme Web détaillé"}}{86}{figure.6.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagramme de classe}}{90}{figure.7.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces processus de recommandation}}{93}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Chargement des données et création du modèle}}{96}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Évaluation du modèle}}{97}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Génération de recommandations}}{97}{figure.8.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces draw.io}}{100}{figure.9.1}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces JavaScript}}{100}{figure.9.2}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces css}}{100}{figure.9.3}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces nodejs}}{101}{figure.9.4}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces nodejs}}{101}{figure.9.5}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces visual Studio code}}{102}{figure.9.6}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Git}}{102}{figure.9.7}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Github}}{102}{figure.9.8}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Figma}}{103}{figure.9.9}%
+\contentsline {figure}{\numberline {9.10}{\ignorespaces MongoDB}}{103}{figure.9.10}%
+\contentsline {figure}{\numberline {9.11}{\ignorespaces MongoDB atlas}}{104}{figure.9.11}%
+\contentsline {figure}{\numberline {9.12}{\ignorespaces MongoDB Compass}}{104}{figure.9.12}%
+\contentsline {figure}{\numberline {9.13}{\ignorespaces DataBase}}{105}{figure.9.13}%
+\contentsline {figure}{\numberline {9.14}{\ignorespaces logo}}{105}{figure.9.14}%
+\contentsline {figure}{\numberline {9.15}{\ignorespaces Processus de conception}}{105}{figure.9.15}%
+\contentsline {figure}{\numberline {9.16}{\ignorespaces Les interfaces d'accueil}}{106}{figure.9.16}%
+\contentsline {figure}{\numberline {9.17}{\ignorespaces L'interface mieux notés}}{107}{figure.9.17}%
+\contentsline {figure}{\numberline {9.18}{\ignorespaces L'interface devenir un vendeur}}{108}{figure.9.18}%
+\contentsline {figure}{\numberline {9.19}{\ignorespaces L'interface ajouter annonce d’achat}}{109}{figure.9.19}%
+\contentsline {figure}{\numberline {9.20}{\ignorespaces L'interface profile vendeur}}{110}{figure.9.20}%
+\contentsline {figure}{\numberline {9.21}{\ignorespaces Les interfaces d'accueil}}{110}{figure.9.21}%
+\contentsline {figure}{\numberline {9.22}{\ignorespaces Les interfaces d'accueil}}{111}{figure.9.22}%
+\contentsline {figure}{\numberline {9.23}{\ignorespaces Les interfaces d'accueil}}{112}{figure.9.23}%
+\contentsline {figure}{\numberline {9.24}{\ignorespaces Les interfaces d'accueil}}{112}{figure.9.24}%
+\contentsline {figure}{\numberline {9.25}{\ignorespaces Les interfaces de discussion}}{113}{figure.9.25}%
+\contentsline {figure}{\numberline {9.26}{\ignorespaces L'interfaces Se connecter}}{114}{figure.9.26}%
+\contentsline {figure}{\numberline {9.27}{\ignorespaces L'interfaces Tableau de bord}}{115}{figure.9.27}%
+\contentsline {figure}{\numberline {9.28}{\ignorespaces L'interfaces Ajouter produit}}{116}{figure.9.28}%
+\contentsline {figure}{\numberline {9.29}{\ignorespaces L'interfaces Commands recus}}{117}{figure.9.29}%
+\contentsline {figure}{\numberline {9.30}{\ignorespaces L'interfaces ajouter produit au stock de site}}{118}{figure.9.30}%
