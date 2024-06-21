@@ -18,7 +18,7 @@
 \usepackage{mwe}
 \usepackage{float}
 \usepackage{biblatex} %Imports biblatex package
-\addbibresource{bibliographie.bib} %Import the bibliography file
+\addbibresource{webography.bib} %Import the bibliography file
 \addto\captionsfrench{\renewcommand{\tablename}{Tableau}}
 \title{Plateforme intelligente visant à améliorer et optimiser l'écosystème commercial en Algérie.}   
 \author{Ali Ziane Hassane / Madjoub Adel / Bouaoua Sifeddine
@@ -27,6 +27,12 @@
 \fancyhf{} 
 \fancyhead[LE,LO]{\leftmark} 
 \fancyfoot[C]{\thepage}
+
+\DefineBibliographyStrings{french}{
+  bibliography = {Webographie},
+}
+
+
 \begin{document}
 \maketitle 
 \pagenumbering{roman}
@@ -56,12 +62,13 @@
 \huge{Résumé} 
 \end{center}
 \phantom{hhhh}Le secteur commercial algérien souffre de problèmes de communication et de gestion des stocks entre grossistes, détaillants et entreprises. Pour résoudre ces défis, nous proposons une plateforme web intelligente,application mobile et un logiciel de gestion de stock avancé. Cette solution centralisera les échanges d'informations, permettant aux grossistes de publier des offres et demandes en temps réel et aux détaillants d'exprimer leurs besoins. Les entreprises pourront élargir leur réseau pour trouver des sources fiables. Grâce à des fonctionnalités avancées, notre projet vise à créer un écosystème commercial plus efficace et collaboratif en Algérie
-\newline\textbf{Mots clés:}écosystème commercial,Secteur commercial,grossiste,détaillants,Logiciel de gestion de stock,Offres et demandes,Communication,Tendances du marché,Système de recommandation
+\newline\textbf{Mots clés:}~écosystème commercial,Secteur commercial,grossiste,détaillants,Logiciel de gestion de stock,Offres et demandes,Communication,Tendances du marché,Système de recommandation
 \begin{center}
-    \huge{Summary} 
+    \huge{Abstract} 
     \end{center}
     \phantom{hhhh}The Algerian commercial sector suffers from communication and stock management problems between wholesalers, retailers, and companies. To address these challenges, we propose an intelligent web platform, a mobile application, and advanced stock management software. This solution will centralize information exchanges, allowing wholesalers to publish offers and demands in real-time and retailers to express their needs. Companies will be able to expand their network to find reliable sources. With advanced features, our project aims to create a more efficient and collaborative commercial ecosystem in Algeria.
-    \newline\textbf{Keywords:} commercial ecosystem, commercial sector, wholesaler, retailers, stock management software, offers and demands, communication, market trends, recommendation system
+    \textbf{Keywords:}~commercial ecosystem, commercial sector, wholesaler, retailers, stock management software, offers and demands, communication, market trends, recommendation system
+
     
 
 \newpage 
@@ -94,28 +101,30 @@ Cette initiative vise à améliorer la communication, optimiser la gestion des s
 \newpage
 Le présent mémoire est organisé comme suit:
  \newline
-\newline\phantom{Ch}\textbf{Chapitre 1:Étude de l'écosystème commercial }
-
-
-Analyse approfondie du secteur commercial en Algérie, mettant en lumière les défis de communication et de distribution entre les acteurs.
-
-\textbf{Première partie :modélisation de la platforme web et application mobile}
+ 
 \begin{itemize}
-    \item Chapitre 2 :Expression des besoins
-    \item Chapitre 3 :Analyse des besoins 
-    \item Chapitre 4 :Conception
+    \item Chapitre 1: Étude de l'écosystème commercial
 \end{itemize}
-\textbf{Deuxième partie:modélisation du logiciel de gestion de stock}
-\begin{itemize}
-    \item Chapitre 5 :Expression des besoins
-    \item Chapitre 6 :Analyse des besoins 
-    \item Chapitre 7 :Conception
-\end{itemize}
-\textbf{Troisiéme partie:réalisation}
-\begin{itemize}
-    \item Chapitre 8 :Système de recommandation
 
-    \item Chapitre 9 :Implémentation 
+
+
+{\noindent\textbf{Première partie: modélisation de la plateforme web et l'application mobile}\par}
+
+\begin{itemize}
+    \item Chapitre 2: Expression des besoins
+    \item Chapitre 3: Analyse des besoins 
+    \item Chapitre 4: Conception
+\end{itemize}
+\textbf{Deuxième partie: modélisation du logiciel de gestion de stock}
+\begin{itemize}
+    \item Chapitre 5: Expression des besoins
+    \item Chapitre 6: Analyse des besoins 
+    \item Chapitre 7: Conception
+\end{itemize}
+\textbf{Troisiéme partie: réalisation}
+\begin{itemize}
+    \item Chapitre 8: Implémentation
+    \item Chapitre 9: Système de recommandation 
 \end{itemize}
 Le rapport sera clôturé avec une conclusion générale
 
@@ -126,7 +135,7 @@ Le rapport sera clôturé avec une conclusion générale
 \section{Introduction}
 L'étude de l'écosystème commercial constitue une approche essentielle pour comprendre les interactions complexes entre les différents acteurs économiques au sein d'un marché. Un écosystème commercial peut être envisagé comme un réseau dynamique d'entreprises, de fournisseurs, de consommateurs et d'autres parties prenantes qui interagissent pour produire, distribuer et consommer des biens et des services.
 \newline Cette étude s'appuie principalement sur la réglementation en vigueur, incluant les textes de loi et les publications au Journal Officiel, ainsi que sur des visites de terrain, dont les détails sont fournis en annexe.
-\newline Ce chapitre présente d'abord une définition de l'écosystème commercial et analyse les flux d'information entre les acteurs. Nous étudierons ensuite les procédures standard et les documents clés qui décrivent ces interactions. Une attention particulière sera accordée aux acteurs de l'écosystème, en précisant leurs rôles et influences.
+\newline Ce chapitre présente d'abord une définition de l'écosystème commercial et analyse les flux d'information entre les acteurs. Nous étudierons ensuite les procédures standards et les documents clés qui décrivent ces interactions. Une attention particulière sera accordée aux acteurs de l'écosystème, en précisant leurs rôles et influences.
 \newline Enfin, nous aborderons la problématique principale et proposerons des solutions pour surmonter les défis identifiés.
 \section{Définition de l'écosystème commercial}
 Un écosystème commercial englobe toutes les organisations et entités impliquées directement ou indirectement dans le cycle de vie d'un produit ou service. Cela inclut les fabricants, les distributeurs, les détaillants, les clients, ainsi que les institutions financières L'analyse de cet écosystème permet de saisir non seulement les relations de concurrence et de coopération, mais aussi les flux de ressources, d'informations et d'influence\cite{1}.
@@ -137,8 +146,7 @@ Un écosystème commercial englobe toutes les organisations et entités impliqu�
 Le flux d'informations comprend l'analyse des échanges d'informations au sein des systèmes d'informations de l'organisation (entreprise, administration ou association) et avec d'autres systèmes d'informations.
 
 
-Cette recherche permet la création d'organigrammes. Le diagramme décrit le flux d'informations entre les participants impliqués dans la réalisation des activités de recherche.
-\cite{flux}
+Cette recherche permet la création d'organigrammes. Le diagramme décrit le flux d'informations entre les participants impliqués dans la réalisation des activités de recherche \cite{flux}.
 \textbf{Cela nous permet de}
 \begin{itemize}
     \item Identifier les flux d'informations entre les postes de travail.
@@ -146,13 +154,13 @@ Cette recherche permet la création d'organigrammes. Le diagramme décrit le flu
 \end{itemize}
 \subsection{Description des acteur de flux}
 \begin{enumerate}
-    \item\textbf{Administrateur de vente:}il supervise et gère les opérations de vente, y compris la gestion des équipes de vente, l'établissement d'objectifs de vente, l'analyse des performances commerciales et le développement de stratégies pour augmenter les revenus\cite{Administrateur}.
-    \item\textbf{Gestionnaire de stock:}il est responsable de la gestion des stocks de produits. Cela comprend la surveillance des niveaux de stock, l'organisation de la logistique de stockage, le réapprovisionnement des marchandises, l'optimisation de l'inventaire et la prévention des ruptures de stock\cite{Gestionnaire}.
-    \item\textbf{Service commercial:}ce service est chargé de promouvoir et de vendre les produits ou services de l'entreprise. Il peut inclure la gestion des relations avec les clients, la mise en œuvre de stratégies de marketing et de vente, et le soutien aux autres départements en fournissant des informations commerciales\cite{Service}.
-    \item\textbf{Magasinier:}il est responsable de la gestion quotidienne de l'entrepôt ou du magasin. Cela comprend la réception, le stockage, l'organisation et la distribution des produits, ainsi que la gestion des inventaires\cite{Magasinier}.
-    \item\textbf{Service de livraison:}ce service est chargé de la distribution des produits aux clients. Cela inclut la planification des itinéraires de livraison, la gestion des chauffeurs, la garantie de la ponctualité des livraisons\cite{logistique}.
-    \item\textbf{Consommateur:}toute personne physique ou morale qui acquiert ou utilise, à des fins excluant tout caractère professionnel, des biens ou des services mis en vente ou offerts\cite{Consommateur}.
-    \item \textbf{Personnel de caisse:}ce personnel est chargé des opérations de caisse, comme l'enregistrement des achats des clients, la gestion des paiements, la remise de la monnaie, ainsi que la gestion des réclamations ou des questions des clients liées aux transactions\cite{Personnel}.
+    \item\textbf{Administrateur de vente:}~il supervise et gère les opérations de vente, y compris la gestion des équipes de vente, l'établissement d'objectifs de vente, l'analyse des performances commerciales et le développement de stratégies pour augmenter les revenus \cite{Administrateur}.
+    \item\textbf{Gestionnaire de stock:}~il est responsable de la gestion des stocks de produits. Cela comprend la surveillance des niveaux de stock, l'organisation de la logistique de stockage, le réapprovisionnement des marchandises, l'optimisation de l'inventaire et la prévention des ruptures de stock\cite{Gestionnaire}.
+    \item\textbf{Service commercial:}~ce service est chargé de promouvoir et de vendre les produits ou services de l'entreprise. Il peut inclure la gestion des relations avec les clients, la mise en œuvre de stratégies de marketing et de vente, et le soutien aux autres départements en fournissant des informations commerciales\cite{Service}.
+    \item\textbf{Magasinier:}~il est responsable de la gestion quotidienne de l'entrepôt ou du magasin. Cela comprend la réception, le stockage, l'organisation et la distribution des produits, ainsi que la gestion des inventaires\cite{Magasinier}.
+    \item\textbf{Service de livraison:}~ce service est chargé de la distribution des produits aux clients. Cela inclut la planification des itinéraires de livraison, la gestion des chauffeurs, la garantie de la ponctualité des livraisons\cite{logistique}.
+    \item\textbf{Consommateur:}~toute personne physique ou morale qui acquiert ou utilise, à des fins excluant tout caractère professionnel, des biens ou des services mis en vente ou offerts\cite{Consommateur}.
+    \item \textbf{Caissier:}~ce personnel est chargé des opérations de caisse, comme l'enregistrement des achats des clients, la gestion des paiements, la remise de la monnaie, ainsi que la gestion des réclamations ou des questions des clients liées aux transactions\cite{Personnel}.
 \end{enumerate}
 \subsection{Diagramme de flux de données}
 \begin{figure}[h!]\label{fig:flux}
@@ -189,10 +197,10 @@ Cette étude permet de mieux comprendre l’enchaînement des tâches du domaine
     \centering
     \begin{tabular}{|c|l|}
         \hline
-        1 & \textbf{Prévente:}création de bon de commande \\
+        1 & \textbf{Prévente:} création de bon de commande \\
         2 & \textbf{Paiement:} \\
-          & \textbf{- Cas1:}par cheque \\
-          & \textbf{- Cas2:}par espéce \\
+          & \textbf{- Cas1:} par cheque \\
+          & \textbf{- Cas2:} par espéce \\
         3 & \textbf{Confirmation du paiement} \\
         4 & \textbf{Effectuer la vente: } \\
           & \textbf{-}l’envoie de facture de vente au consommateur. \\
@@ -208,11 +216,11 @@ Cette étude permet de mieux comprendre l’enchaînement des tâches du domaine
 \subsection{Définition d’un document }
 Un document est un ensemble d'informations écrites, complètes et précises qui nous permettent de mener des opérations en vue d'une bonne gestion du domaine. Il existe deux types de documents :
 \begin{itemize}
-    \item Documents internes:Déterminés par le domaine d'études.
-    \item Documents externes:Destinés au domaine d'études.
+    \item Documents internes: déterminés par le domaine d'études.
+    \item Documents externes: destinés au domaine d'études.
 \end{itemize}
 \subsection{Liste des documents}
-Facture préforma, Bon de commande, Facture de vente, Bordereau de marchandises, Bon de livraison, Bon de réception, Reçu de paiement
+Facture proforma, bon de commande, facture de vente, bordereau de marchandises, bon de livraison, bon de réception, reçu de paiement
 \subsection{Tableau désignation des abréviations}
 \begin{table}[h!]
     \centering
@@ -234,12 +242,12 @@ Facture préforma, Bon de commande, Facture de vente, Bordereau de marchandises,
 \end{table}
 \newpage
 \subsection{Fiche d’étude de document N°1}
-Désignation :facture préforma.
-\newline Rôle :c’est utilisé pour les marchandises non destinées à la vente. Elle permet de déclarer la valeur et la nature de la marchandise sans pour autant avoir de valeur comptable
-\newline Nature :interne
-\newline Fréquence :par demande
-\newline Émetteur :administrateur de vente
-\newline Récepteur :consommateur \cite{Facturep}
+\noindent Désignation: facture proforma.
+\newline Rôle: c’est utilisé pour les marchandises non destinées à la vente. Elle permet de déclarer la valeur et la nature de la marchandise sans pour autant avoir de valeur comptable
+\newline Nature: interne
+\newline Fréquence: par demande
+\newline Émetteur: administrateur de vente
+\newline Récepteur: consommateur \cite{Facturep}
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|c|c|}
@@ -275,12 +283,12 @@ Description d’article & AN & 100 & \\
 \end{table}
 \newpage
 \subsection{Fiche d’étude de document N°2}
-Désignation :bon de commande.
-\newline Rôle :les bons de commande sont émis par l’acheteur, qui veut s’assurer qu’il obtienne exactement ce qu’il a commandé
-\newline Nature :externe
-\newline Fréquence :
-\newline Émetteur :consommateur
-\newline Récepteur :administrateur de vente \cite{Bonc}
+\noindent Désignation: bon de commande.
+\newline Rôle: les bons de commande sont émis par l’acheteur, qui veut s’assurer qu’il obtienne exactement ce qu’il a commandé
+\newline Nature: externe
+\newline Fréquence: -
+\newline Émetteur: consommateur
+\newline Récepteur: administrateur de vente \cite{Bonc}
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|c|c|}
@@ -319,12 +327,12 @@ Description d’article & AN & 100 & \\
 
 \newpage
 \subsection{Fiche d’étude de document N°3}
-Désignation :facture de vente.
-\newline Rôle :un document représentant la preuve comptable d'un achat ou d'une vente de produits ou de services.
-\newline Nature :interne
-\newline Fréquence :par demande
-\newline Émetteur :administrateur de vente
-\newline Récepteur :consommateur \cite{facturev}
+\noindent Désignation: facture de vente.
+\newline Rôle: un document représentant la preuve comptable d'un achat ou d'une vente de produits ou de services.
+\newline Nature: interne
+\newline Fréquence: par demande
+\newline Émetteur: administrateur de vente
+\newline Récepteur: consommateur \cite{facturev}
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|c|c|}
@@ -366,12 +374,12 @@ Description d’article & AN & 100 & \\
 
 \newpage
 \subsection{Fiche d’étude de document N°4}
-Désignation :bordereau des marchandises.
-\newline Rôle :un bordereau de marchandises présente les lignes d'expédition emballées prêtes pour l'expédition.
-\newline Nature :interne
-\newline Fréquence :par demande
-\newline Émetteur :administrateur de vente
-\newline Récepteur :magasinier\cite{bordereau}
+\noindent Désignation: bordereau des marchandises.
+\newline Rôle: un bordereau de marchandises présente les lignes d'expédition emballées prêtes pour l'expédition.
+\newline Nature: interne
+\newline Fréquence: par demande
+\newline Émetteur: administrateur de vente
+\newline Récepteur: magasinier\cite{bordereau}
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|c|c|}
@@ -409,12 +417,12 @@ Description d’article & AN & 100 & \\
 
 \newpage
 \subsection{Fiche d’étude de document N°5}
-Désignation :bon de livraison.
-\newline Rôle :le bon de livraison est un document signé par la personne qui réceptionne une marchandise et la vérifie
-\newline Nature :interne
-\newline Fréquence :par demande
-\newline Émetteur :administrateur de vente
-\newline Récepteur :service livraison \cite{bonl}
+\noindent Désignation: bon de livraison.
+\newline Rôle: le bon de livraison est un document signé par la personne qui réceptionne une marchandise et la vérifie
+\newline Nature: interne
+\newline Fréquence: par demande
+\newline Émetteur: administrateur de vente
+\newline Récepteur: service livraison \cite{bonl}
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|c|c|}
@@ -452,12 +460,12 @@ Description d’article & AN & 100 & \\
 
 \newpage
 \subsection{Fiche d’étude de document N°6}
-Désignation :bon de reception.
-\newline Rôle :le bon de réception est le document que le consemmateur remettez au livreur, ou que vous transmettez au fournisseur, pour accuser bonne réception, ou pas, de la marchandise que vous lui aviez commandée.
-\newline Nature :externe
-\newline Fréquence :
-\newline Émetteur :consommateur
-\newline Récepteur :service livraison \cite{bonr}
+\noindent Désignation: bon de reception.
+\newline Rôle: le bon de réception est le document que le consemmateur remettez au livreur, ou que vous transmettez au fournisseur, pour accuser bonne réception, ou pas, de la marchandise que vous lui aviez commandée.
+\newline Nature: externe
+\newline Fréquence : -
+\newline Émetteur: consommateur
+\newline Récepteur: service livraison \cite{bonr}
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|c|c|}
@@ -497,12 +505,12 @@ commentaires & AN & 100 & \\
 \end{table}
 \newpage
 \subsection{Fiche d’étude de document N°7}
-Désignation :reçu de paiement.
-\newline Rôle :un reçu de paiement est un document qui atteste d'une transaction financière. Il confirme la réception d'une somme d'argent ou d'une autre forme de paiement
-\newline Nature :interne
-\newline Fréquence :
-\newline Émetteur :personal de caisse
-\newline Récepteur :consommateur \cite{reçu}
+\noindent Désignation: reçu de paiement.
+\newline Rôle: un reçu de paiement est un document qui atteste d'une transaction financière. Il confirme la réception d'une somme d'argent ou d'une autre forme de paiement
+\newline Nature: interne
+\newline Fréquence: -
+\newline Émetteur: Caissier
+\newline Récepteur: consommateur \cite{reçu}
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|c|c|}
@@ -514,7 +522,7 @@ Contient rubriques & Type & Taille & Observation\\
  N° reçu de paiement & N & 10 & \\
  N° commande  & N & 10 & \\
  Nom entreprise & A & 20 & \\
- Nom personnel de caisse & A & 20 & \\
+ Nom caissier & A & 20 & \\
  Date de paiement & D & 8 & JJ/MM/AAAA \\
 Nom consommateur & A & 20 & \\
 montant payé & N & 20 & \\
@@ -525,12 +533,11 @@ type de paiement & AN & 100 & \\
     \label{tab:7}
 \end{table}
 \section{Étude des acteurs de l'écosystème commercial}
-On définie d’abord l’acteur principal dans notre projet qui selon les lois nationales
 \subsection{Consommateur}
 Toute personne physique ou morale qui acquiert ou utilise, à des fins excluant tout caractère professionnel, des biens ou des services mis en vente ou offerts\cite{Consommateur}.  
-\subsection{Service commerciale}
-Le service commercial est l’ensemble des activités ayant pour objet la vente et/ou la promotion d’un produit ou d’un service. Il s’agit donc du lien entre l’entreprise et ses clients potentiels ou existants\cite{Service}.
-\newline\textbf{Les missions du service commercial}\newline
+\subsection{Service commercial}
+Le service commercial englobe toutes les activités visant à vendre et/ou promouvoir un produit ou un service. Il constitue ainsi le lien essentiel entre l'entreprise et ses clients potentiels ou existants\cite{Service}.
+\newline\newline\textbf{Les missions du service commercial}\newline
 \begin{itemize}
     \item [•]   Le service commercial a pour mission principale de générer des revenus pour l’entreprise en mettant en œuvre une stratégie commerciale efficace. Il doit également assurer le suivi des clients et des prospects, afin de les fidéliser et de les inciter à acheter les produits ou les services de l’entreprise
     \item [•]	Pour ce faire, le service commercial doit mettre en place une bonne communication avec les autres services de l’entreprise, notamment la production et la logistique, afin de garantir la bonne exécution des commandes. Il doit également collaborer étroitement avec le service marketing, afin de définir les meilleures offres commerciales et d’assurer une bonne promotion des produits.
@@ -539,7 +546,7 @@ Le service commercial est l’ensemble des activités ayant pour objet la vente 
 \end{itemize}
 \subsection{Gestionnaire de stock}
 Il gère et optimise la gestion des stocks (entrées et sorties des marchandises) pour minimiser le niveau de stocks sans risquer la rupture. En liaison étroite avec les fournisseurs et les transporteurs, il conçoit et coordonne l'ensemble de la chaîne d'approvisionnement dans les délais impartis. Il met en place le stockage des produits (surface, rangement, rotation des produits) en fonction des services commerciaux et de la demande des clients. Il supervise le traitement des commandes en veillant au respect des coûts et des délais. Il est le garant de la disponibilité des marchandises\cite{Gestionnaire}.
-\newline\textbf{Les missions du Gestionnaire de stock}\newline
+\newline\newline\textbf{Les missions du gestionnaire de stock}\newline
 \begin{itemize}
     \item [•] Planifier les livraisons avec les fournisseurs en fonction de divers critères (type d'emballages, quantité, fréquence de tournées des camions)
     \item [•]	Suivre les critères de performance des fournisseurs (délais de livraison, niveaux de qualité, respect des conditions négociées par l'entreprise)
@@ -547,9 +554,9 @@ Il gère et optimise la gestion des stocks (entrées et sorties des marchandises
     \item [•]   Négocier des solutions de rechange avec les fournisseurs en cas de dysfonctionnement, parfois dans l'urgence
     \item [•]   Suivre les ventes et les prévisions pour assurer la disponibilité des produits et superviser la préparation des commandes.
 \end{itemize}
-\subsection{Personnel de caisse }
+\subsection{Caissier}
 Le caissier est chargé de gérer les transactions financières avec les clients. Cela comprend l'enregistrement des achats et la manipulation des paiements. Le caissier doit maintenir la précision des registres comptables, offrir un service clientèle efficace et contribuer à assurer un flux monétaire régulier au sein du grossiste\cite{Personnel}.
-\newline\textbf{Les missions du Personnel de caisse}\newline
+\newline\newline\textbf{Les missions du caissier}\newline
 \begin{itemize}
     \item [•] Enregistrement précis des achats, émission des factures et traitement des paiements.
     \item [•] Maintien de la précision des informations financières pour assurer une comptabilité correcte.
@@ -558,7 +565,7 @@ Le caissier est chargé de gérer les transactions financières avec les clients
 \end{itemize}
 \subsection{Administrateur des ventes}
 L’administrateur des ventes (ADV) organise ou réalise la gestion des contrats de vente depuis la réception des commandes jusqu'à la livraison des produits chez le client. Il s’assure de la bonne exécution des commandes clients, réceptionne la marchandise, organise l’acheminement et assure le suivi du traitement des commandes auprès des clients. Il réalise l'interface entre les clients, les services internes (commercial, production, planification) et les intervenants externes de l'entreprise (fournisseurs, transporteurs)\cite{Administrateur}.
-\newline\textbf{Les missions du  Administrateur des ventes}\newline
+\newline\newline\textbf{Les missions du  administrateur des ventes}\newline
 \begin{itemize}
     \item [•] Définir des procédures administratives de traitement des commandes 
     \item [•] Proposer des axes d'amélioration 
@@ -580,8 +587,8 @@ L’administrateur des ventes (ADV) organise ou réalise la gestion des contrats
 \end{itemize}
 \subsection{Magasinier}
 Le magasinier assure le suivi des livraisons et de l’état des stocks pour éviter toute rupture dans la chaîne logistique.La préparation de commandes n’a aucun secret pour le magasinier ! Ce professionnel de la logistique est le garant des stocks d’un entrepôt, d’une usine ou d’une entreprise. Au quotidien, il réceptionne les commandes, les vérifie et les affecte aux bons rayons de stockage. Il peut aussi préparer les commandes en s’appuyant sur les bordereaux de commande, sous la responsabilité du chef magasinier\cite{Magasinier}.
-\newline
-\textbf{Les missions du Magasinier}\newline
+\newline\newline
+\textbf{Les missions du magasinier}\newline
 \begin{itemize}
     \item [•]Réceptionner une livraison (marchandise à l’unité, en lot ou en palettes),
     \item [•] Vérifier la conformité de la livraison.
@@ -596,7 +603,7 @@ Le magasinier assure le suivi des livraisons et de l’état des stocks pour év
 \end{itemize}
 \subsection{Service de livraison}
 Le service de livraison d'une entreprise, souvent qualifié de service de distribution, constitue l'élément fondamental de la logistique et des opérations. Sa mission essentielle est de coordonner le transfert des produits de l'entreprise depuis leurs points de stockage ou de production jusqu'aux destinataires ultimes, que ce soient les clients, les points de vente ou d'autres partenaires commerciaux. Axé sur l'optimisation de la circulation des marchandises, ce service s'engage à respecter des normes élevées en matière de fiabilité, de rapidité et de sécurité à chaque étape du processus de distribution\cite{logistique}.
-\newline\textbf{Les missions du Service de livraison}\newline
+\newline\newline\textbf{Les missions du service de livraison}\newline
 \begin{itemize}
     \item [•] Acheminer les produits de l'entreprise vers les clients et les points de vente.
     \item [•] Assurer une gestion efficace de la chaîne d'approvisionnement. 
@@ -612,35 +619,35 @@ Le service de livraison d'une entreprise, souvent qualifié de service de distri
 
 \section{Exemple d'une application existante (logiciel de gestion de stock: DjawahirSoft)}
 \subsubsection{Description}
-Djawahirsoft est un logiciel de gestion qui simplifie la gestion commerciale et des stocks. Il permet de créer des devis, commandes, factures, bons de livraison et bons de réception. Il gère les inventaires, les régularisations de stock, ainsi que les règlements clients et fournisseurs. D'après les retours du terrain, Djawahirsoft est l'application la plus utilisée et bénéficie d'un écho positif parmi les utilisateurs\cite{Djawahirsoft}.
-\subsubsection{Les fonctionnalités:}
+Djawahirsoft est un logiciel de la gestion des stocks. Il permet de créer des devis, commandes, factures, bons de livraison et bons de réception. Il gère les inventaires, les régularisations de stock, ainsi que les règlements clients et fournisseurs. D'après les retours du terrain, Djawahirsoft est l'application la plus utilisée et bénéficie d'un écho positif parmi les utilisateurs\cite{Djawahirsoft}.
+\subsubsection{Les fonctionnalités}
 \begin{itemize}
     \item [•] Gestion des comptes. 
     \item [•] Gestion des produits/services.
     \item [•] Gestion des clients/fournisseurs.
     \item [•] Gestion des dépôts et stock.
-    \item [•] Gestion des familles (produit, service,client).
+    \item [•] Gestion des familles (produit, service, client).
     \item [•] importation et exportation des données.
     \item [•] Devis/Facture proforma, bons de livraisons, factures d'achats et bons de réceptions, factures de ventes, avoirs clients et fournisseurs.
-    \item [•] Gestion des commandes fournisseurs/clients
-    \item [•] Gestion d'échéanciers de paiements des factures de vente et d'achat
+    \item [•] Gestion des commandes fournisseurs/clients.
+    \item [•] Gestion d'échéanciers de paiements des factures de vente et d'achat.
     \item [•] Consulter et suivre les Arrivage des produits.
     \item [•] gérer les règlements et remboursement clients/fournisseurs.
-    \item [•] gestion des charges et dépenses
+    \item [•] gestion des charges et dépenses.
     \item [•] Transferts de stock inter-dépôts.
     \item [•] Calculer et consulter les bénéfices et les chiffres d'affaires (par produit, par jour, par client).
 \end{itemize}
-Djawehrsoft est un logiciel de gestion de stock traditionnel qui ne suit pas les avancées technologiques et ne répond pas aux exigences actuelles du marché, telles que la gestion et la vérification des stocks à distance,par ailleurs, il ne dispose pas de fonctionnalités modernes comme les notifications en temps réel, l'intégration avec les plateformes de commerce électronique, et les outils d'analyse de données avancés, dont le vendeur moderne a un besoin crucial pour développer son activité et optimiser sa gestion.
+Djawahirsoft est un logiciel de gestion de stock traditionnel qui ne suit pas les avancées technologiques et ne répond pas aux exigences actuelles du marché, telles que la gestion et la vérification des stocks à distance,par ailleurs, il ne dispose pas de fonctionnalités modernes comme les notifications en temps réel, l'intégration avec les plateformes de commerce électronique, et les outils d'analyse de données avancés, dont le vendeur moderne a un besoin crucial pour développer son activité et optimiser sa gestion.
 \section{Problématique}
-Le secteur commercial en Algérie est confronté à de nombreux défis en raison d'une interconnectivité limitée entre les principaux acteurs : les grossistes (vendeurs), les détaillants (acheteurs) et les entreprises. Ce manque de communication et de coordination entraîne plusieurs problèmes :
+Le secteur commercial en Algérie est confronté à de nombreux défis en raison d'une interconnectivité limitée entre les principaux acteurs : les grossistes (vendeurs), les détaillants (acheteurs) et les entreprises (acheteurs/vendeurs). Ce manque de communication et de coordination entraîne plusieurs problèmes :
 \begin{enumerate}
-    \item \textbf{Difficultés d'approvisionnement pour les détaillants:}Les détaillants peinent à trouver les produits nécessaires en raison d'un réseau limité, ce qui perturbe la distribution efficace des marchandises et conduit à des pénuries ou à des retards.
-    \item \textbf{Problèmes de stock chez les grossistes:}Les grossistes ont du mal à identifier et à comprendre les besoins spécifiques des détaillants, ce qui peut entraîner des surplus de stock ou des pénuries.
-    \item \textbf{Difficulté de trouver des sources fiables pour les entreprises:}Les entreprises rencontrent des obstacles pour localiser les grossistes répondant à leurs besoins spécifiques, ce qui complique leurs opérations d'approvisionnement.
-    \item \textbf{Manque de transparence des prix:}Les prix des produits varient considérablement entre différents fournisseurs, compliquant la comparaison et la négociation pour les détaillants et les entreprises.
-    \item \textbf{Difficulté de suivre les transactions et les performances des fournisseurs:}Les acteurs du secteur ont une visibilité limitée sur l'historique des transactions et les performances des fournisseurs et partenaires commerciaux.
-    \item \textbf{Difficultés de suivi des tendances marché (Prix/Produits):}Les fournisseurs éprouvent des difficultés à garantir la disponibilité constante des produits dans les régions intérieures, entraînant des défis logistiques et des fluctuations d'approvisionnement pour les consommateurs locaux.
-    \item \textbf{Indisponibilité des produits en Wilayas internes:}Pointe les difficultés d'approvisionnement rencontrées dans plusieurs régions internes, exposant ainsi les défis logistiques et économiques engendrés par cette situation.
+    \item \textbf{Difficultés d'approvisionnement pour les détaillants:}~Les détaillants peinent à trouver les produits nécessaires en raison d'un réseau limité, ce qui perturbe la distribution efficace des marchandises et conduit à des pénuries ou à des retards.
+    \item \textbf{Problèmes de stock chez les grossistes:}~Les grossistes ont du mal à identifier et à comprendre les besoins spécifiques des détaillants, ce qui peut entraîner des surplus de stock ou des pénuries.
+    \item \textbf{Difficulté de trouver des sources fiables pour les entreprises:}~Les entreprises rencontrent des obstacles pour localiser les grossistes répondant à leurs besoins spécifiques, ce qui complique leurs opérations d'approvisionnement.
+    \item \textbf{Manque de transparence des prix:}~Les prix des produits varient considérablement entre différents fournisseurs, compliquant la comparaison et la négociation pour les détaillants et les entreprises.
+    \item \textbf{Difficulté de suivre les transactions et les performances des fournisseurs:}~Les acteurs du secteur ont une visibilité limitée sur l'historique des transactions et les performances des fournisseurs et partenaires commerciaux.
+    \item \textbf{Difficultés de suivi des tendances marché (Prix/Produits):}~Les fournisseurs éprouvent des difficultés à garantir la disponibilité constante des produits dans les régions intérieures, entraînant des défis logistiques et des fluctuations d'approvisionnement pour les consommateurs locaux.
+    \item \textbf{Indisponibilité des produits en Wilayas internes:}~Pointe les difficultés d'approvisionnement rencontrées dans plusieurs régions internes, exposant ainsi les défis logistiques et économiques engendrés par cette situation.
 \end{enumerate}
 \section{Solution}
 
@@ -648,24 +655,24 @@ Répondant à ces défis, nous proposons une solution intégrée basée sur une 
 comme illustré dans la Figure \ref{fig:figure1.3}
 \subsection{Pour les grossistes (vendeurs)}
 \begin{itemize}
-    \item [•] \textbf{Un espace commercial en ligne:}Créer votre propre boutique en ligne vous permet de personnaliser et de gérer facilement votre espace commercial sur Internet, et de publier des annonces pour atteindre un large public ciblé, et attirer de nouveaux clients potentiels de partout dans le pays.
-    \item [•] \textbf{Génération automatique des documents:}cette solution consiste à générer les documents qui concernent les commandes effectuées et les commandes reçues depuis la plateforme. Une fois qu'une commande est confirmée sur la plateforme Web, le logiciel de gestion de stock génère automatiquement le document correspondant (un bon de commande ou bien un bon d’achat).
-    \item [•] \textbf{Base de données partagées:}La possibilité de consulter le stock des produits depuis plusieurs machines ,  y compris le smartphone grâce à une base de données partagées.
-    \item [•] \textbf{La réservation des produits:}La possibilité de consulter les stocks des autres grossistes après leur acceptation et de réserver les produits désirés pour les ajouter à votre propre stock.
+    \item [•] \textbf{Un espace commercial en ligne: }Créer votre propre boutique en ligne vous permet de personnaliser et de gérer facilement votre espace commercial sur Internet, et de publier des annonces pour atteindre un large public ciblé, et attirer de nouveaux clients potentiels de partout dans le pays.
+    \item [•] \textbf{Génération automatique des documents: }cette solution consiste à générer les documents qui concernent les commandes effectuées et les commandes reçues depuis la plateforme. Une fois qu'une commande est confirmée sur la plateforme Web, le logiciel de gestion de stock génère automatiquement le document correspondant (un bon de commande ou bien un bon d’achat).
+    \item [•] \textbf{Base de données partagées: }La possibilité de consulter le stock des produits depuis plusieurs machines ,  y compris le smartphone grâce à une base de données partagées.
+    \item [•] \textbf{La réservation des produits: }La possibilité de consulter les stocks des autres grossistes après leur acceptation et de réserver les produits désirés pour les ajouter à votre propre stock.
 \end{itemize}
 \subsection{Pour les détaillants (acheteurs)}
 \begin{itemize}
-    \item [•] \textbf{Accessibilité directe aux grossistes:}Cette fonctionnalité offre aux utilisateurs la possibilité de contacter directement un large éventail des vendeurs grâce à un système de messagerie, simplifiant ainsi le processus d'approvisionnement et favorisant une meilleure connectivité dans le secteur.
-    \item [•] \textbf{Facilité d'approvisionnement:}la possibilité de publier des demandes spécifiques de produits par les détaillants  pour recevoir diverses propositions des grossistes.
-    \item [•] \textbf{Comparaison des prix:}la plateforme permet la comparaison des prix des produits entre divers grossistes et régions.
-    \item [•] \textbf{Fiabilité des grossistes:}Garantir la fiabilité des grossistes grâce à un système de vérification du numéro du registre de commerce.
-    \item [•] \textbf{Suivi des tendances:}la plateforme permet aux grossistes de consulter les nouveaux produits et suivre les tendances du marché, ainsi que consulter les produits les plus vendus sur le marché.
-    \item [•] \textbf{Vente rapide et transparente:}Cette fonctionnalité permet aux utilisateurs de passer rapidement et facilement des commandes en toute transparence, depuis la recherche de produits jusqu'à la gestion des commandes, offrant ainsi une expérience d'achat fluide et efficace.
+    \item [•] \textbf{Accessibilité directe aux grossistes: }Cette fonctionnalité offre aux utilisateurs la possibilité de contacter directement un large éventail des vendeurs grâce à un système de messagerie, simplifiant ainsi le processus d'approvisionnement et favorisant une meilleure connectivité dans le secteur.
+    \item [•] \textbf{Facilité d'approvisionnement: }la possibilité de publier des demandes spécifiques de produits par les détaillants  pour recevoir diverses propositions des grossistes.
+    \item [•] \textbf{Comparaison des prix: }la plateforme permet la comparaison des prix des produits entre divers grossistes et régions.
+    \item [•] \textbf{Fiabilité des grossistes: }Garantir la fiabilité des grossistes grâce à un système de vérification du numéro du registre de commerce.
+    \item [•] \textbf{Suivi des tendances: }la plateforme permet aux grossistes de consulter les nouveaux produits et suivre les tendances du marché, ainsi que consulter les produits les plus vendus sur le marché.
+    \item [•] \textbf{Vente rapide et transparente: }Cette fonctionnalité permet aux utilisateurs de passer rapidement et facilement des commandes en toute transparence, depuis la recherche de produits jusqu'à la gestion des commandes, offrant ainsi une expérience d'achat fluide et efficace.
 \end{itemize}
 \subsection{Pour les entreprises}
 \begin{itemize}
-    \item [•] \textbf{Élargissement du réseau de contacts:}Une plateforme qui facilite l'expansion du réseau de contacts, augmentant les chances de trouver des sources fiables pour les produits nécessaires.
-    \item [•] \textbf{Professionnalisme et qualité assurée:}Assurez la qualité des produits et le traitement adéquat des clients en travaillant avec des vendeurs vérifiés.
+    \item [•] \textbf{Élargissement du réseau de contacts: }Une plateforme qui facilite l'expansion du réseau de contacts, augmentant les chances de trouver des sources fiables pour les produits nécessaires.
+    \item [•] \textbf{Professionnalisme et qualité assurée: }Assurez la qualité des produits et le traitement adéquat des clients en travaillant avec des vendeurs vérifiés.
 \end{itemize}
 \phantom{hassane}
 \newline
@@ -685,8 +692,8 @@ Ce chapitre a défini l'écosystème commercial et analysé les flux d'informati
 
 
 
-\part{Modélisation de la platforme web et application mobile}
-\chapter{Expresion des besoins}  
+\part{Modélisation de la platforme web et l'application mobile}
+\chapter{Expression des besoins}  
 \newpage
 \section{Introduction }
 L'expression des besoins est la première étape fondamentale du projet. Ce chapitre se concentre sur l'identification des besoins des utilisateurs et des parties prenantes. En utilisant les diagrammes UML, tels que les diagrammes de cas d'utilisation et de séquence, nous décrivons les interactions entre les utilisateurs et le système. Ces outils visuels permettent de clarifier les fonctionnalités requises, les scénarios d'utilisation et les attentes des utilisateurs, jetant ainsi les bases pour une conception efficace et une mise en œuvre réussie. Il convient de noter que la modélisation de l'application mobile étant similaire à celle de la plateforme web, nous présenterons uniquement celle-ci de platforme web
@@ -697,33 +704,33 @@ Nous avons deux types de besoins : des besoins fonctionnels et des besoins non f
 \subsection{Les besoins fonctionnels }
 Notre platforme "EASYCOM" offre un ensemble de fonctionnalités :
 \begin{itemize}
-    \item \textbf{Gestion des annonces:}les vendeurs est acheteurs peuvent créer, modifier et supprimer leurs annonces, tandis que les utilisateurs peuvent les suivre et interagir avec elles.
-    \item \textbf{Gestion de profil:}Les utilisateurs, qu'ils soient vendeurs ou acheteurs, peuvent mettre à jour leurs informations personnelles et paramètres de compte.
-    \item \textbf{Gestion de recherche:}La plateforme offre une recherche avancée selon divers critères pour trouver rapidement les annonces pertinentes.
-    \item \textbf{Discussion:}Un espace de discussion intégré permet aux vendeurs et acheteurs d'échanger des informations.
-    \item \textbf{Gestion de stock:}Cela inclut le suivi des quantités disponibles, des mises à jour automatiques en fonction des ventes ou réservations, et des notifications en cas de stock faible. 
-    \item \textbf{Gestion des commandes:}Les utilisateurs peuvent passer des commandes, suivre leur statut, et recevoir des notifications sur l'état de leurs commandes.
+    \item \textbf{Gestion des annonces:}~les vendeurs est acheteurs peuvent créer, modifier et supprimer leurs annonces, tandis que les utilisateurs peuvent les suivre et interagir avec elles.
+    \item \textbf{Gestion de profil:}~les utilisateurs, qu'ils soient vendeurs ou acheteurs, peuvent mettre à jour leurs informations personnelles et paramètres de compte.
+    \item \textbf{Gestion de recherche:}~la plateforme offre une recherche avancée selon divers critères pour trouver rapidement les annonces pertinentes.
+    \item \textbf{Discussion:}~un espace de discussion intégré permet aux vendeurs et acheteurs d'échanger des informations.
+    \item \textbf{Gestion de stock:}~cela inclut le suivi des quantités disponibles, des mises à jour automatiques en fonction des ventes ou réservations, et des notifications en cas de stock faible. 
+    \item \textbf{Gestion des commandes:}~les utilisateurs peuvent passer des commandes, suivre leur statut, et recevoir des notifications sur l'état de leurs commandes.
 \end{itemize}
 \subsection{Les besoins non fonctionnels}
 Les besoins non fonctionnels décrivent toutes les contraintes qui doivent être prises en compte afin de mettre en place une meilleure solution pour assurer le bon fonctionnement et la réalisation du système.
 
 Notre application doit nécessairement assure ces besoins
 \begin{itemize}
-    \item \textbf{L’ergonomie:}l’application doit offrir une interface conviviale et facile pour l’utilisateur.
-    \item \textbf{Maintenabilité:}le code doit être lisible pour assurer son état évolutif et faciliter les futures modifications.
-    \item \textbf{Rapidité:}le temps de réponse de l’application doit être court.
-    \item \textbf{Efficacité:}l’application doit être fonctionnelle indépendamment de toute circonstance pouvant survenir.
-    \item \textbf{La sécurité:}tous les accès des utilisateurs doivent être protégés par un login et un mot de passe.
-    \item \textbf{L’interface:}Avoir une application qui respecte le principe de l'interface homme/machine tel que l'ergonomie et la fiabilité.
+    \item \textbf{L’ergonomie:}~l’application doit offrir une interface conviviale et facile pour l’utilisateur.
+    \item \textbf{Maintenabilité:}~le code doit être lisible pour assurer son état évolutif et faciliter les futures modifications.
+    \item \textbf{Rapidité:}~le temps de réponse de l’application doit être court.
+    \item \textbf{Efficacité:}~l’application doit être fonctionnelle indépendamment de toute circonstance pouvant survenir.
+    \item \textbf{La sécurité:}~tous les accès des utilisateurs doivent être protégés par un login et un mot de passe.
+    \item \textbf{L’interface:}~avoir une application qui respecte le principe de l'interface homme/machine tel que l'ergonomie et la fiabilité.
 \end{itemize}
 \section{Diagramme de cas d'utilisation}
-\subsection{Définition}
+
 Le diagramme de cas d’utilisation représente la structure des grandes fonctionnalités
 nécessaires aux utilisateurs du système. C’est le premier diagramme du modèle UML,
 celui où s’assure la relation entre l’utilisateur et les objets que le système met en œuvre.
 Les acteurs sont des entités externes qui définissent le rôle joué par un utilisateur ou par
 un système, ils sont représentés par un personnage nommé\cite{usecas}. 
-\subsection{Identification des acteurs et des cas d'utilisations}
+\subsection{Identification des acteurs et des cas d'utilisation}
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|l|}
@@ -735,18 +742,19 @@ un système, ils sont représentés par un personnage nommé\cite{usecas}.
                     & Consulter les annonces de vente.\\
                     & Gérer la liste des favoris.\\
                     & Gérer le panier.\\
-                    & Gérer la discussion.\\
+                    & Gérer les discussions.\\
         Acheteur    & Gérer le profil.\\
                     & Gérer les annonces d'achat.\\
                     & Gérer les notifications.\\
                     & Devenir un vendeur.\\ \hline
-                    & Consulter les annonces d'achats.\\
+                    & Consulter les annonces d'achat.\\
                     & Gérer les commandes.\\
         Vendeur     & Gérer le stock.\\
                     & Gérer les réservateurs.\\
+                    & Gérer les réservations.\\
                     & Créer les annonces de ventes. \\ \hline
-                    & Contacter les utilisateurs.\\
     Administrateur  & Gérer les comptes des utilisateurs.\\
+                    & Contacter les utilisateurs.\\
                     & Supprimer une annonce vente. \\
                     & Supprimer une annonce achat.   \\\hline
     \end{tabular}
@@ -790,10 +798,10 @@ Dans ce qui suit, nous allons présenter les diagrammes de cas d'utilisation gé
 \end{figure}
 \newpage
 \section{Diagrammes de séquences}
-\subsection{Définition}
+
 Le diagramme de séquence permet de préciser les interactions entre l'acteur et le système avec des messages présentés dans un ordre chronologique 
 \cite{séquences}.
-\newline Dans ce qui suit, nous allons présenter quelques exemples de diagrammes de séquence pour des cas d'utilisation importants, et Chaque diagramme de séquence présenté sera accompagné d'une description textuelle.
+\newline Dans ce qui suit, nous allons présenter quelques exemples de diagrammes de séquence pour des cas d'utilisation importants, dont chaque diagramme de séquence présenté sera accompagné d'une description textuelle.
 \subsubsection{Cas d'utilisation "créer un compte"}
 \begin{table}[h!]
     \centering
@@ -1142,7 +1150,7 @@ Ce chapitre a permis de définir clairement les besoins spécifiques pour la cr�
 \section{Introduction}
 Après avoir exprimé les besoins, il est crucial d'analyser ces exigences en détail pour assurer une compréhension approfondie et pour identifier les éventuelles lacunes ou conflits. Ce chapitre se consacre à cette analyse, en détaillant les processus métier et les flux de travail à l'aide de diagrammes de séquence détaillés et de diagrammes d'activité. Cette étape permet de décomposer les besoins en éléments plus petits et plus gérables, de vérifier leur faisabilité et de préparer des solutions optimisées. L'analyse approfondie garantit que toutes les exigences sont bien comprises et alignées avec les objectifs du projet.
 \section{Les diagrammes de séquence détaillés}
-Pendant l’analyse, l’objet “système” du diagramme de la phase précédente est remplacé par un ensemble d’objets d’analyse, ces objets collaborent pour fournir la même fonctionnalité que celle fournie par l’objet “système”. Ces objets peuvent être réparties en trois catégories:
+Pendant l'analyse, l'objet << système >> du diagramme de la phase précédente est remplacé par un ensemble d'objets d'analyse, ces objets collaborent pour fournir la même fonctionnalité que celle fournie par l'objet << système ». Ces objets peuvent être repartis en trois catégories :
 \begin{table}[h!]
     \centering
     \begin{tabular}{c}
@@ -1152,6 +1160,7 @@ Pendant l’analyse, l’objet “système” du diagramme de la phase précéde
     \caption{objet d'analyse}
     \label{tab:objet analyse}
 \end{table}
+\newline\newline Dans ce qui suit, nous allons présenter les diagrammes de séquence détaillés pour quelques cas d'utilisation.
 \subsubsection{Cas d'utilisation "authentification"}
 \begin{figure}[H]\label{fig:Diagramme cas 1d}
 \centering
@@ -1198,7 +1207,6 @@ Pendant l’analyse, l’objet “système” du diagramme de la phase précéde
 
 
 \section{Diagramme d'activité}
-\subsection{Définition}
 Un diagramme d'activité représente visuellement le flux de contrôle entre les différentes activités d'un processus dans le domaine de l'ingénierie logicielle et de la gestion des processus pour représenter le flux de contrôle entre différentes activités d'un processus. Il aide à visualiser les étapes et les décisions d'un processus, que ce soit dans le cadre du développement logiciel ou de la modélisation des processus métier\cite{activite}.
 \newline Voici une représentation des différents nœuds utilisés dans un diagramme d'activité :
 \begin{table}[h!]
@@ -1409,7 +1417,7 @@ Voici les règles de gestion de notre système
 \end{enumerate}
 \clearpage
 \subsection{Présentation du diagramme de classe}
-La figure (figure: \ref{fig:diag_class}) représente le diagramme de classe de notre application :
+La figure (figure : \ref{fig:diag_class}) représente le diagramme de classe de notre application :
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{images/diagramme de class.png}
@@ -1419,24 +1427,24 @@ La figure (figure: \ref{fig:diag_class}) représente le diagramme de classe de n
 \subsection{Passage du diagramme de classes au modèle relationnel }
 Pour passer de diagramme de classe vers le modèle relationnel, nous appliquons les règles suivantes :
 \newline
-\textbf{Règle 1:}Chaque classe devient une table, les attributs de la classe deviennent
+\textbf{Règle 1: }Chaque classe devient une table, les attributs de la classe deviennent
 les attributs et l’identifiant devient clé primaire pour la table.
 \newline
-\textbf{Règle 2:}Chaque association 1-1 est prise en compte en incluant la clé primaire
+\textbf{Règle 2: }Chaque association 1-1 est prise en compte en incluant la clé primaire
 d’une des relations comme clé étrangère dans l’autre relation.
 \newline
-\textbf{Règle 3:}Chaque association 1-N est prise en compte en incluant la clé comme
+\textbf{Règle 3: }Chaque association 1-N est prise en compte en incluant la clé comme
 clé étrangère dans la relation dont la multiplicité maximale est * la clé primaire
 de l’autre relation.
 \newline
-\textbf{Règle 4:}Chaque association M-N est prise en compte en créant une nouvelle
+\textbf{Règle 4: }Chaque association M-N est prise en compte en créant une nouvelle
 relation dont la clé primaire est la concaténation des clés primaires de relations
 participantes. Les attributs de la classe d’association sont insérés dans cette nouvelle relation si nécessaire.
 \newline \phantom{hassane} \newline
 \textbf{Clé de lecture}
 \begin{itemize}
-    \item [•] \textbf{Clé primaire:}Indiquée avec le nom de la clé souligné
-    \item [•] \textbf{Clé étrangère:}Indiquée par un \# suivi du nom de la clé
+    \item [•] \textbf{Clé primaire: }Indiquée avec le nom de la clé souligné
+    \item [•] \textbf{Clé étrangère: }Indiquée par un \# suivi du nom de la clé
 \end{itemize}
 En appliquant les règles sur de passage mentionnée dans la partie précédente sur le diagramme de classe suivant (figure: \ref{fig:diag_class}), on obtient le modèle relationnel qui contient les tables suivantes :
 
@@ -1472,23 +1480,23 @@ Nous avons deux types de besoins : des besoins fonctionnels et des besoins non f
 \subsection{Les besoins fonctionnels }
 Notre logiciel de gestion du stock "EASYCOM" offre un ensemble de fonctionnalités :
 \begin{itemize}
-    \item \textbf{Gestion des produits:}lPermet la gestion complète des produits, incluant l'ajout, la modification, la suppression et la catégorisation.
-    \item \textbf{Suivi des stocks:}Permet la visualisation en temps réel des niveaux de stock, la gestion des seuils de réapprovisionnement et le suivi de l'historique des mouvements.
-    \item \textbf{Gestion des commandes:}Permet la gestion complète des commandes fournisseurs et clients, y compris les retours et les échanges
-    \item \textbf{Gestion des factures:}Permet la création, le suivi et l'archivage des factures clients et fournisseurs.
-    \item \textbf{Rapports et analyses:}Permet de générer des rapports détaillés sur les niveaux de stock, les mouvements et les ventes, et d'analyser les données pour identifier les tendances.
+    \item \textbf{Gestion des produits: }lPermet la gestion complète des produits, incluant l'ajout, la modification, la suppression et la catégorisation.
+    \item \textbf{Suivi des stocks: }Permet la visualisation en temps réel des niveaux de stock, la gestion des seuils de réapprovisionnement et le suivi de l'historique des mouvements.
+    \item \textbf{Gestion des commandes: }Permet la gestion complète des commandes fournisseurs et clients, y compris les retours et les échanges
+    \item \textbf{Gestion des factures: }Permet la création, le suivi et l'archivage des factures clients et fournisseurs.
+    \item \textbf{Rapports et analyses: }Permet de générer des rapports détaillés sur les niveaux de stock, les mouvements et les ventes, et d'analyser les données pour identifier les tendances.
 \end{itemize}
 \subsection{Les besoins non fonctionnels}
 Les besoins non fonctionnels décrivent toutes les contraintes qui doivent être prises en compte afin de mettre en place une meilleure solution pour assurer le bon fonctionnement et la réalisation du système.
 
 Notre application doit nécessairement assure ces besoins
 \begin{itemize}
-    \item \textbf{L’ergonomie:}l’application doit offrir une interface conviviale et facile pour l’utilisateur.
-    \item \textbf{Maintenabilité:}le code doit être lisible pour assurer son état évolutif et faciliter les futures modifications.
-    \item \textbf{Rapidité:}le temps de réponse de l’application doit être court.
-    \item \textbf{Efficacité:}l’application doit être fonctionnelle indépendamment de toute circonstance pouvant survenir.
-    \item \textbf{La sécurité:}tous les accès des utilisateurs doivent être protégés par un login et un mot de passe.
-    \item \textbf{L’interface:}Avoir une application qui respecte le principe de \newline l'interface homme/machine tel que l'ergonomie et la fiabilité.
+    \item \textbf{L’ergonomie: }l’application doit offrir une interface conviviale et facile pour l’utilisateur.
+    \item \textbf{Maintenabilité: }le code doit être lisible pour assurer son état évolutif et faciliter les futures modifications.
+    \item \textbf{Rapidité:} le temps de réponse de l’application doit être court.
+    \item \textbf{Efficacité: }l’application doit être fonctionnelle indépendamment de toute circonstance pouvant survenir.
+    \item \textbf{La sécurité: }tous les accès des utilisateurs doivent être protégés par un login et un mot de passe.
+    \item \textbf{L’interface: }Avoir une application qui respecte le principe de \newline l'interface homme/machine tel que l'ergonomie et la fiabilité.
 \end{itemize}
 \section{ Diagramme de cas d'utilisation }
 \subsection{Identification des acteurs et des cas d'utilisations}
@@ -1897,7 +1905,7 @@ Voici les règles de gestion de notre système
 \end{enumerate}
 \clearpage
 \subsection{Présentation du diagramme de classe}
-La figure (figure: \ref{fig:diag_classl}) représente le diagramme de classe de notre logiciel de gestion de stock 
+La figure (figure : \ref{fig:diag_classl}) représente le diagramme de classe de notre logiciel de gestion de stock 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{images/diagramme de class L.png}
@@ -1906,21 +1914,21 @@ La figure (figure: \ref{fig:diag_classl}) représente le diagramme de classe de 
 \subsection{Passage du diagramme de classes au modèle relationnel }
 Pour passer de diagramme de classe vers le modèle relationnel, nous appliquons les règles suivantes
 \newline
-\textbf{Règle 1:}Chaque classe devient une table, les attributs de la classe deviennent
+\textbf{Règle 1: }Chaque classe devient une table, les attributs de la classe deviennent
 les attributs et l’identifiant devient clé primaire pour la table.
 \newline
-\textbf{Règle 2:}Chaque association 1-1 est prise en compte en incluant la clé primaire
+\textbf{Règle 2: }Chaque association 1-1 est prise en compte en incluant la clé primaire
 d’une des relations comme clé étrangère dans l’autre relation.
 \newline
-\textbf{Règle 3:}Chaque association 1-N est prise en compte en incluant la clé comme
+\textbf{Règle 3: }Chaque association 1-N est prise en compte en incluant la clé comme
 clé étrangère dans la relation dont la multiplicité maximale est * la clé primaire
 de l’autre relation.
 \newline
-\textbf{Règle 4:}Chaque association M-N est prise en compte en créant une nouvelle
+\textbf{Règle 4: }Chaque association M-N est prise en compte en créant une nouvelle
 relation dont la clé primaire est la concaténation des clés primaires de relations
 participantes. Les attributs de la classe d’association sont insérés dans cette nouvelle relation si nécessaire.
 \newline \phantom{hassane} \newline
-En appliquant les règles sur de passage mentionnée dans la partie précédente sur le diagramme de classe suivant (figure: \ref{fig:diag_classl}), on obtient le modèle relationnel qui contient les tables suivantes :
+En appliquant les règles sur de passage mentionnée dans la partie précédente sur le diagramme de classe suivant (figure : \ref{fig:diag_classl}), on obtient le modèle relationnel qui contient les tables suivantes :
 \begin{itemize}
     \item supervisor(\underline{id\_sup},nom\_sup,mot\_de\_pass\_sup,\#id\_resp\_vent,\#id\_resp\_achat \#id\_resp\_stk)
     \item responsable des achats(\underline{id\_resp\_achat},nom\_resp,mot\_de\_pass\_res)
@@ -1945,161 +1953,6 @@ La phase de conception a transformé les besoins analytiques en une architecture
 %=============================>
 \clearpage 
 \part{Réalisation}
-\chapter{Système de recommandation}
-\section{Introduction}
-Les systèmes de recommandation jouent un rôle crucial dans de nombreuses plateformes en ligne, des sites de commerce électronique aux services de streaming en passant par les réseaux sociaux. Leur objectif principal est de fournir des recommandations personnalisées, ce qui améliore l'expérience utilisateur et stimule l'engagement. Voici quelques points clés à savoir sur ces systèmes.
-\section{Définition}
-Les systèmes de recommandation sont des techniques algorithmiques visant à prédire les préférences ou les besoins d'un utilisateur pour des items (comme des produits, des services, des informations, etc.) et à recommander ceux qui pourraient être les plus pertinents ou intéressants pour lui.
-\newline Principaux types de systèmes de recommandation:
-\begin{enumerate}
-    \item \textbf{Filtrage collaboratif:}Ce type de système analyse les interactions passées des utilisateurs (par exemple, leurs évaluations, leurs achats, leurs clics) pour identifier des patterns et recommander des items similaires à ceux appréciés par d'autres utilisateurs ayant des goûts similaires.
-    \item \textbf{Filtrage basé sur le contenu:}Ces systèmes recommandent des items similaires à ceux que l'utilisateur a aimés par le passé, en se basant sur des caractéristiques ou des attributs des items eux-mêmes. Par exemple, recommander un film basé sur ses genres, ses acteurs ou son synopsis.
-    \item \textbf{Recommandation hybride:}Intégrant plusieurs approches, ces systèmes combinent filtrage collaboratif, filtrage basé sur le contenu ou d'autres techniques pour améliorer la précision et la pertinence des recommandations.
-\end{enumerate}
-\section{Fonctionnement}
-\begin{enumerate}
-    \item \textbf{Collecte des données:}Les systèmes de recommandation recueillent des données sur les préférences des utilisateurs, telles que les achats précédents, les évaluations, les clics, les recherches, etc.
-    \item \textbf{Analyse des données:}En utilisant des algorithmes, ces systèmes analysent les données utilisateur pour trouver des modèles ou des similarités entre utilisateurs et articles.
-    \item \textbf{Génération de recommandations:}En se basant sur ces modèles, les systèmes de recommandation prédisent les éléments qui pourraient intéresser un utilisateur donné et leur recommandent ces éléments.
-\end{enumerate}
-la figure \ref{sr} illustre le processus de recommandation de produits similaires dans un système basé sur les interactions de l'utilisateur. Un produit visualisé par un utilisateur est analysé, et des produits similaires sont identifiés et ensuite recommandés à l'utilisateur.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\textwidth]{images/recommendation system.jpg}
-    \caption{processus de recommandation}\label{sr}
-\end{figure}
-\section{Objectifs du système de recommandation}
-\begin{itemize}
-    \item \textbf{Amélioration de l'expérience utilisateur:} Fournir des recommandations personnalisées pour chaque utilisateur afin d'améliorer la satisfaction et l'engagement.
-    \item \textbf{Augmentation des ventes:} Stimuler les ventes en proposant des produits pertinents susceptibles d'intéresser les utilisateurs.
-    \item \textbf{Gestion du cold-start:} Adresser le problème des nouveaux utilisateurs et des nouveaux produits pour lesquels il y a peu ou pas de données d'interaction.
-\end{itemize}
-\section{L'impact des recommandations personnalisées}
-Ajouter un système de recommandation à notre systeme “EASYCOM” peut avoir plusieurs impacts importants et bénéfiques
-\begin{enumerate}
-    \item \textbf{Amélioration de l'expérience utilisateur} \begin{itemize}
-             \item \textbf{Personnalisation:}les recommandations personnalisées rendent l'expérience utilisateur plus agréable et pertinente, augmentant ainsi l'engagement et la satisfaction des utilisateurs.
-             \item \textbf{Découverte de produits:}les utilisateurs peuvent découvrir des produits qu'ils n'auraient pas trouvés autrement, augmentant la variété de leur expérience d'achat.
-            \end{itemize}
-    \item \textbf{Augmentation des ventes et des revenus} \begin{itemize}
-        \item \textbf{Upselling et cross-selling:}les recommandations peuvent inciter les utilisateurs à acheter des produits complémentaires ou plus chers, augmentant ainsi le panier moyen
-        \item \textbf{Conversion:}des recommandations bien placées et pertinentes peuvent convertir les visiteurs en acheteurs plus efficacement.
-    \end{itemize}
-    \item \textbf{Fidélisation des clients} \begin{itemize}
-        \item \textbf{Engagement continu:}les utilisateurs sont plus susceptibles de revenir sur l'application si elle continue de leur proposer des produits pertinents et intéressants.
-        \item \textbf{Loyauté:}une expérience personnalisée et agréable peut fidéliser les clients, les incitant à revenir régulièrement.
-    \end{itemize}
-    \item \textbf{Optimisation du stock et des inventaires} \begin{itemize}
-        \item \textbf{Gestion des stocks:}En recommandant des produits en surstock, l'application peut aider à équilibrer l'inventaire.
-        \item \textbf{Prévisions de demande:}Les données sur les produits recommandés et achetés peuvent aider à prévoir les tendances de demande et à optimiser les commandes de stock.
-    \end{itemize}
-    \item \textbf{Avantage concurrentiel} \begin{itemize}
-        \item \textbf{Différenciation:}Offrir une expérience personnalisée peut distinguer l'application des concurrents qui n'ont pas de système de recommandation.
-        \item \textbf{Innovation:}Un système de recommandation peut positionner l'application comme innovante et à la pointe de la technologie
-    \end{itemize}
-\end{enumerate}
-\section{Utilisation de LightFM}
-LightFM est une bibliothèque Python populaire pour la construction de systèmes de recommandation. Elle combine les avantages du filtrage collaboratif et du filtrage basé sur le contenu.
-\section{Pourquoi LightFM ?}
-\subsection*{Points Forts de LightFM}
-\textbf{1.Flexibilité et Polyvalence}
-\begin{itemize}
-    \item \textbf{Approche Hybride:}LightFM combine les méthodes de filtrage collaboratif et de filtrage basé sur le contenu, ce qui permet de tirer parti des interactions utilisateur-élément et des caractéristiques des articles pour offrir des recommandations précises.
-    \item \textbf{Support de différentes pertes:}LightFM supporte plusieurs fonctions de perte (WARP, BPR, Logistic), permettant de choisir celle qui convient le mieux à nos objectifs.
-\end{itemize}
-\phantom{2.2}\textbf{2.Performance et Scalabilité}
-\begin{itemize}
-    \item \textbf{Efficacité de l'entraînement:}LightFM est optimisé pour être rapide et efficace, même sur des jeux de données volumineux.
-    \item \textbf{Précision des recommandations:}En utilisant des techniques de factorisation matricielle avancées, LightFM offre des recommandations de haute qualité, ce qui se traduit par une meilleure précision et un meilleur rappel.
-\end{itemize}
-\phantom{2.2}\textbf{3.Facilité d'intégration et d'utilisation}
-\begin{itemize}
-    \item \textbf{Interface simple:}La bibliothèque est conçue pour être facile à utiliser, avec une API claire et intuitive.
-    \item \textbf{Compatibilité:}LightFM s'intègre facilement avec d'autres outils et bibliothèques Python, facilitant ainsi son intégration dans notre pipeline existant.
-\end{itemize}
-
-\section{Méthode de Calcul du Modèle LightFM}
-LightFM utilise des techniques de factorisation matricielle combinées à des approches de filtrage collaboratif et de filtrage basé sur le contenu. Cette section détaille les méthodes de calcul sous-jacentes à ce modèle.
-\subsection{Factorisation Matricielle}
-La factorisation matricielle est au cœur de LightFM. Elle consiste à décomposer la matrice d'interactions utilisateur-élément \( R \) en deux matrices de rang inférieur : une matrice utilisateur \( U \) et une matrice élément \( V \).
-\begin{itemize}
-    \item Matrice des interactions \( R \):Représente les interactions (par exemple, évaluations, clics, achats) entre les utilisateurs et les articles.
-    \item Matrice utilisateur \( U \):Représente les facteurs latents des utilisateurs.
-    \item Matrice élément \( V \):Représente les facteurs latents des articles.
-\end{itemize}
-L'objectif est de trouver \( U \) et \( V \) telles que \( R \approx UV^T \).
-\subsection{Fonction de Perte}
-LightFM supporte plusieurs fonctions de perte pour optimiser la factorisation, notamment WARP (Weighted Approximate-Rank Pairwise), BPR (Bayesian Personalized Ranking), et la perte logistique. Nous nous concentrerons sur la perte WARP, qui est souvent utilisée en pratique pour les systèmes de recommandation.
-\newline
-\textbf{Perte WARP} :
-\newline
-La perte WARP est conçue pour optimiser directement le rang des éléments recommandés. Elle favorise les éléments bien classés par rapport aux éléments mal classés pour chaque utilisateur.
-\newline
-Formellement, pour chaque interaction observée \((u, i)\), où \(u\) est un utilisateur et \(i\) est un article avec une interaction positive, la perte WARP est définie comme :
-
-\[
-\text{WARP}(u, i) = \sum_{j \in J} \max(0, 1 - \hat{r}_{ui} + \hat{r}_{uj})
-\]
-
-Où :
-
-\begin{itemize}
-    \item \(\hat{r}_{ui}\) est le score prédit pour l'interaction entre l'utilisateur \(u\) et l'article \(i\).
-    \item \(\hat{r}_{uj}\) est le score prédit pour l'interaction entre l'utilisateur \(u\) et un article \(j\) négatif (non observé).
-    \item \(J\) est l'ensemble des échantillons d'articles négatifs.
-\end{itemize}
-
-Le but est de maximiser la différence entre les scores des interactions positives et négatives, en minimisant la fonction de perte.
-\subsection{Optimisation}
-L'optimisation est réalisée en utilisant une approche de descente de gradient stochastique. LightFM met à jour les matrices \( \mathbf{U} \) et \( \mathbf{V} \) de manière itérative pour minimiser la fonction de perte choisie.
-
-\begin{enumerate}
-    \item \textbf{Initialisation}:Les matrices \( \mathbf{U} \) et \( \mathbf{V} \) sont initialisées avec des valeurs aléatoires.
-    \item \textbf{Descente de Gradient}
-    \begin{itemize}
-        \item Pour chaque interaction positive \( (u, i) \), un élément négatif \( j \) est échantillonné.
-        \item Les gradients des paramètres \( \mathbf{U}_u \) et \( \mathbf{V}_i \) sont calculés et utilisés pour mettre à jour les vecteurs latents.
-    \end{itemize}
-\end{enumerate}
-\subsection{Prédiction}
-Les scores prédits pour les interactions utilisateur-élément sont calculés comme le produit scalaire des vecteurs latents de l'utilisateur et de l'article :
-
-\[
-\hat{r}_{ui} = U_u \cdot V_i^T
-\]
-
-Où \(U_u\) est le vecteur de facteurs latents de l'utilisateur \(u\) et \(V_i\) est le vecteur de facteurs latents de l'article \(i\).
-
-\section{Implémentation en LightFM}
-Voici comment ces concepts sont implémentés dans LightFM
-\subsection{Chargement des données et création du modèle}
-Ce code charge les données Movielens en filtrant les évaluations d'au moins 4 étoiles, crée un modèle de recommandation LightFM en utilisant la fonction de perte WARP, et entraîne le modèle sur les données d'entraînement pendant 30 époques en utilisant 2 threads. Cela permet de prédire les préférences des utilisateurs pour un système de recommandation.
-\begin{figure} [H]
-    \centering
-    \includegraphics[width=15.742708333cm , height = 9cm , angle=360]{images/Chargement des données.png}
-    \caption{Chargement des données et création du modèle}
-    \label{fig:cdd}
-\end{figure}
-\subsection{Évaluation du modèle}
-Ce code évalue la précision du modèle de recommandation sur les données d'entraînement et de test en utilisant la métrique de précision à k pour k=10. Il calcule la moyenne de la précision sur les 10 premiers éléments recommandés pour chaque ensemble de données et affiche les résultats. Cela permet de mesurer l'efficacité du modèle dans les recommandations.
-\begin{figure} [H]
-    \centering
-    \includegraphics[width=15.742708333cm , height = 5cm , angle=360]{images/Évaluation du modèle.png}
-    \caption{Évaluation du modèle}
-    \label{fig:Évaluation du modèle}
-\end{figure}
-\subsection{Génération de recommandations}
-Ce code définit une fonction pour recommander des articles à des utilisateurs spécifiques en utilisant un modèle de recommandation. Il affiche les trois articles connus positifs et les trois meilleures recommandations pour chaque utilisateur spécifié. La fonction est ensuite appelée pour les utilisateurs avec les identifiants 3, 25 et 450.
-\begin{figure} [H]
-    \centering
-    \includegraphics[width=15.742708333cm , height = 14cm , angle=360]{images/Génération de recommandations.png}
-    \caption{Génération de recommandations}
-    \label{fig:Génération de recommandations}
-\end{figure}
-\section{Conclusion}
-Ce chapitre a exploré le fonctionnement des systèmes de recommandation, leurs types, et leurs objectifs. L'accent a été mis sur l'utilisation de LightFM pour créer un système de recommandation performant. Les raisons du choix de LightFM, ainsi que les méthodes de calcul du modèle, ont été détaillées, montrant comment ce système peut personnaliser les recommandations de manière efficace. Cette analyse a démontré l'importance des systèmes de recommandation dans l'amélioration de l'expérience utilisateur et la personnalisation des services.
-\newline
-Cependant, il est important de noter que la mise en place d'un système de recommandation peut être limitée par le manque de données utilisateur. Actuellement, en raison de cette pénurie de données, la réalisation complète du système de recommandation n'est pas possible. Il est prévu de le mettre en œuvre après avoir collecté suffisamment de données utilisateur pour garantir des recommandations précises et pertinentes.
 
 %====================================>
 \chapter{Implémentation}
@@ -2107,7 +1960,7 @@ Cependant, il est important de noter que la mise en place d'un système de recom
 Dans ce chapitre nous allons aborder la dernière phase de notre projet qui est « l’implémentation». Donc, nous présentons les différents langages, outils et bibliothèques utilisées pour sa réalisation, ensuite nous présenterons quelque interfaces de notre système (plateforme web, logiciel de gestion de stock et app mobile).
 \section{Environnement de développement }
 Dans cette partie on présentera l'environnement matériel et logiciel, ainsi que les outils de développement. 
-\subsection{Environnement Matériel }
+\subsection{Environnement matériel }
 Pour développer notre système nous avons utilisé les ordinateurs portables dont on cite les caractéristiques suivantes :  
 \begin{table}[h!]
     \centering
@@ -2141,7 +1994,7 @@ Pour développer notre système nous avons utilisé les ordinateurs portables do
 \subsection{Environnement logiciel }
 Les outils utilisés pour le développement du projet concernant :
 \subsubsection{ Outil de modélisation UML }
-\textbf{draw.io:}Draw.io est un outil en ligne gratuit pour créer et partager des diagrammes, tels que des organigrammes, des diagrammes de flux et des cartes mentales. Il offre une interface intuitive, des options de collaboration en temps réel et des intégrations avec divers services de stockage cloud.\cite{drawio}
+\textbf{draw.io: }Draw.io est un outil en ligne gratuit pour créer et partager des diagrammes, tels que des organigrammes, des diagrammes de flux et des cartes mentales. Il offre une interface intuitive, des options de collaboration en temps réel et des intégrations avec divers services de stockage cloud\cite{drawio}.
 \begin{figure}[H]\label{fig:draw.io}
     \centering
     \includegraphics[width=3cm , height = 2.5cm , angle=360]{images/drawio.png}
@@ -2149,26 +2002,26 @@ Les outils utilisés pour le développement du projet concernant :
     \end{figure}
 \subsubsection{langage de développement }
 Pour développer notre application nous avons utilisé les langages suivants :
-\newline\textbf{JavaScript:}JavaScript (JS) est un langage de programmation interprété et orienté objet principalement utilisé pour le développement web. Il permet de créer des pages web interactives et dynamiques en manipulant le contenu HTML et CSS.\cite{js}
+\newline\textbf{JavaScript: }JavaScript (JS) est un langage de programmation interprété et orienté objet principalement utilisé pour le développement web. Il permet de créer des pages web interactives et dynamiques en manipulant le contenu HTML et CSS\cite{js}.
 \begin{figure}[H]\label{fig:js}
     \centering
     \includegraphics[width=3cm , height = 2.5cm , angle=360]{images/Javascript.png}
     \caption{JavaScript}
     \end{figure}
-\textbf{CSS:}CSS (Cascading Style Sheets), c’est un langage qui vient compléter le HTML, son rôle principal est de traiter la mise en forme du contenu d’une page HTML.\cite{css}
+\textbf{CSS: }CSS (Cascading Style Sheets), c’est un langage qui vient compléter le HTML, son rôle principal est de traiter la mise en forme du contenu d’une page HTML\cite{css}.
 \begin{figure}[H]\label{fig:css}
     \centering
     \includegraphics[width=3cm , height = 3cm , angle=360]{images/css.png}
     \caption{css}
     \end{figure}
 \newpage
-\textbf{nodejs:}Node.js est un environnement d'exécution JavaScript côté serveur. Il permet d'exécuter du code JavaScript en dehors d'un navigateur, facilitant le développement de serveurs web et d'applications réseau rapides et évolutives grâce à son modèle asynchrone et basé sur les événements.\cite{nodejs}
+\textbf{nodejs: }Node.js est un environnement d'exécution JavaScript côté serveur. Il permet d'exécuter du code JavaScript en dehors d'un navigateur, facilitant le développement de serveurs web et d'applications réseau rapides et évolutives grâce à son modèle asynchrone et basé sur les événements\cite{nodejs}.
 \begin{figure}[H]\label{fig:nodejs}
     \centering
     \includegraphics[width=4cm , height = 2.5cm , angle=360]{images/nodejs.png}
     \caption{nodejs}
     \end{figure}
-\textbf{SQLite:}SQLite est une base de données relationnelle légère, sans serveur, stockée dans un fichier unique. Elle est idéale pour les applications embarquées et mobiles.\cite{sqlite}
+\textbf{SQLite: }SQLite est une base de données relationnelle légère, sans serveur, stockée dans un fichier unique. Elle est idéale pour les applications embarquées et mobiles\cite{sqlite}.
     \begin{figure}[H]\label{fig:nodejs}
         \centering
         \includegraphics[width=4cm , height = 2.5cm , angle=360]{images/SQLite370.png}
@@ -2176,14 +2029,14 @@ Pour développer notre application nous avons utilisé les langages suivants :
         \end{figure}
 \subsubsection{bibliothèques utilisées}
 \begin{itemize}
-    \item \textbf{Reactjs:}ReactJS est une bibliothèque JavaScript développée par Facebook pour construire des interfaces utilisateur. Elle permet de créer des composants réutilisables et dynamiques, facilitant le développement d'applications web interactives et performantes.\cite{reactjs}
-    \item \textbf{Electron.js:}Electron.js est un framework permettant de créer des applications de bureau multiplateformes en utilisant des technologies web comme JavaScript, HTML et CSS. Développé par GitHub, il combine Chromium et Node.js, permettant aux développeurs web de créer des applications natives pour Windows, macOS et Linux.\cite{electron}
-    \item \textbf{Tailwind:}Tailwind CSS est un framework CSS utilitaire permettant de créer rapidement des interfaces utilisateur personnalisées en utilisant des classes prédéfinies.\cite{tailwind}
-    \item \textbf{Bootstrap:}Bootstrap est un framework CSS populaire pour développer des sites web et des applications réactifs et mobiles en utilisant des composants préconçus et un système de grille flexible.\cite{Bootstrap}
-    \item \textbf{React native:}React Native est un framework open-source développé par Facebook, permettant de créer des applications mobiles pour iOS et Android en utilisant JavaScript et React.\cite{reactn}
-    \item \textbf{Express.js:}Express est un framework web minimaliste et flexible pour Node.js, utilisé pour créer des applications web et des API robustes et performantes.\cite{express}
-    \item \textbf{matreal design:}Material Design est un langage de conception développé par Google, visant à créer des interfaces utilisateur intuitives et cohérentes en utilisant des principes de design basés sur la physique, la lumière et les ombres pour offrir une expérience utilisateur riche et immersive.\cite{matreal}
-    \item \textbf{React-PDF:}React-PDF est une bibliothèque pour intégrer et afficher des fichiers PDF dans les applications React de manière simple et efficace.
+    \item \textbf{Reactjs: }ReactJS est une bibliothèque JavaScript développée par Facebook pour construire des interfaces utilisateur. Elle permet de créer des composants réutilisables et dynamiques, facilitant le développement d'applications web interactives et performantes\cite{reactjs}.
+    \item \textbf{Electron.js: }Electron.js est un framework permettant de créer des applications de bureau multiplateformes en utilisant des technologies web comme JavaScript, HTML et CSS. Développé par GitHub, il combine Chromium et Node.js, permettant aux développeurs web de créer des applications natives pour Windows, macOS et Linux\cite{electron}.
+    \item \textbf{Tailwind: }Tailwind CSS est un framework CSS utilitaire permettant de créer rapidement des interfaces utilisateur personnalisées en utilisant des classes prédéfinies.\cite{tailwind}
+    \item \textbf{Bootstrap: }Bootstrap est un framework CSS populaire pour développer des sites web et des applications réactifs et mobiles en utilisant des composants préconçus et un système de grille flexible.\cite{Bootstrap}
+    \item \textbf{React native: }React Native est un framework open-source développé par Facebook, permettant de créer des applications mobiles pour iOS et Android en utilisant JavaScript et React.\cite{reactn}
+    \item \textbf{Express.js: }Express est un framework web minimaliste et flexible pour Node.js, utilisé pour créer des applications web et des API robustes et performantes.\cite{express}
+    \item \textbf{matreal design: }Material Design est un langage de conception développé par Google, visant à créer des interfaces utilisateur intuitives et cohérentes en utilisant des principes de design basés sur la physique, la lumière et les ombres pour offrir une expérience utilisateur riche et immersive\cite{matreal}.
+    \item \textbf{React-PDF: }React-PDF est une bibliothèque pour intégrer et afficher des fichiers PDF dans les applications React de manière simple et efficace.
 \end{itemize}
 
 
@@ -2193,34 +2046,34 @@ Pour développer notre application nous avons utilisé les langages suivants :
 
 \subsubsection{Outils de développement }
 Pour développer notre application nous avons utiliser les logiciels suivants :
-\newline\textbf {Visual Studio Code :}Visual Studio Code est un éditeur de code source gratuit et multiplateforme développé par Microsoft. Il offre des fonctionnalités comme la coloration syntaxique, le débogage intégré, le contrôle de version Git et une vaste bibliothèque d'extensions pour supporter divers langages de programmation et outils de développement.\cite{vscode}
+\newline\textbf {Visual Studio Code : }Visual Studio Code est un éditeur de code source gratuit et multiplateforme développé par Microsoft. Il offre des fonctionnalités comme la coloration syntaxique, le débogage intégré, le contrôle de version Git et une vaste bibliothèque d'extensions pour supporter divers langages de programmation et outils de développement\cite{vscode}.
 \begin{figure}[H]\label{fig:vscode}
     \centering
     \includegraphics[width=4cm , height = 2.5cm , angle=360]{images/vscode.png}
     \caption{visual Studio code}
     \end{figure}
-\textbf {Git:}Git est un système de contrôle de version distribué gratuit et open source conçu pour tout gérer, des petits aux très grands projets, avec rapidité et efficacité, facile à apprendre et a une petite empreinte avec des performances ultra-rapides. Il surclasse les outils SCM tels que Subversion, CVS, Perforce et ClearCase avec des fonctionnalités telles que la création de branches locales bon marché, des zones de mise en scène pratiques et plusieurs flux de travail. \cite{git}
+\textbf {Git: }Git est un système de contrôle de version distribué gratuit et open source conçu pour tout gérer, des petits aux très grands projets, avec rapidité et efficacité, facile à apprendre et a une petite empreinte avec des performances ultra-rapides. Il surclasse les outils SCM tels que Subversion, CVS, Perforce et ClearCase avec des fonctionnalités telles que la création de branches locales bon marché, des zones de mise en scène pratiques et plusieurs flux de travail\cite{git}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=3cm , height = 2.5cm , angle=360]{images/git.jpg}
     \caption{Git}
     \label{fig:git}
 \end{figure}
-  \textbf {Github:}GitHub est une plateforme web de contrôle de versions et de collaboration pour les développeurs de logiciels. \cite{github}
+  \textbf {Github: }GitHub est une plateforme web de contrôle de versions et de collaboration pour les développeurs de logiciels\cite{github}.
   \begin{figure} [H]
     \centering
     \includegraphics[width=2.5cm , height = 2cm , angle=360]{images/github.png}
     \caption{Github}
     \label{fig:github}
 \end{figure}
-\textbf{Figma:}c'est un éditeur de graphiques vectoriels et un outil de prototypage. Il est principalement basé sur le web, avec des fonctionnalités hors ligne supplémentaires activées par des applications de bureau pour macOS et Windows. L'ensemble des fonctionnalités de Figma est axé sur l'utilisation dans la conception de l'interface utilisateur et de l'expérience utilisateur, en mettant l'accent sur la collaboration en temps réel. \cite{figma}
+\textbf{Figma: }c'est un éditeur de graphiques vectoriels et un outil de prototypage. Il est principalement basé sur le web, avec des fonctionnalités hors ligne supplémentaires activées par des applications de bureau pour macOS et Windows. L'ensemble des fonctionnalités de Figma est axé sur l'utilisation dans la conception de l'interface utilisateur et de l'expérience utilisateur, en mettant l'accent sur la collaboration en temps réel\cite{figma}.
   \begin{figure}[H] 
     \centering
     \includegraphics[width=1.5cm , height = 2cm , angle=360]{images/figma.png}
     \caption{Figma}
     \label{fig:figma}
 \end{figure}
-\textbf{vite:}Vite est un outil de build et de développement rapide pour les projets front-end modernes, offrant un démarrage rapide et des mises à jour à chaud ultra-rapides.
+\textbf{vite: }Vite est un outil de build et de développement rapide pour les projets front-end modernes, offrant un démarrage rapide et des mises à jour à chaud ultra-rapides.
 \begin{figure}[H] 
     \centering
     \includegraphics[width=2cm , height = 2cm , angle=360]{images/logo-with-shadow.png}
@@ -2235,8 +2088,8 @@ Pour développer notre application nous avons utiliser les logiciels suivants :
     \label{fig:MongoDB}
 \end{figure}
 \subsection{MongoDB atlas}
-MongoDB Atlas est une base de données MongoDB entièrement gérée dans le cloud. Elle permet de déployer, gérer et faire évoluer des clusters MongoDB sur les principaux fournisseurs de cloud (AWS, Google Cloud, Azure). Atlas offre des fonctionnalités comme la sauvegarde automatisée, la restauration, le monitoring et des mesures de sécurité avancées pour garantir la haute disponibilité et la performance de vos applications.\cite{atlas}
-\subsection{MongoDB Compass }
+MongoDB Atlas est une base de données MongoDB entièrement gérée dans le cloud. Elle permet de déployer, gérer et faire évoluer des clusters MongoDB sur les principaux fournisseurs de cloud (AWS, Google Cloud, Azure). Atlas offre des fonctionnalités comme la sauvegarde automatisée, la restauration, le monitoring et des mesures de sécurité avancées pour garantir la haute disponibilité et la performance de vos applications\cite{atlas}.
+\subsection{MongoDB compass }
 MongoDB Compass est une interface graphique pour MongoDB qui permet d'explorer et de manipuler visuellement les données, de créer des requêtes, d'analyser les schémas, et de surveiller les performances de la base de données.
 \newline \phantom{hassane} \newline
 La figure (\ref{fig:stock}) représente interface de MongoDB atlas de notre système 
@@ -2261,6 +2114,27 @@ La figure (\ref{fig:db}) représente interface de notre DataBase
     \caption{DataBase}
     \label{fig:db}
 \end{figure}
+\section{Diagramme de déploiement}
+\subsection{Définition}
+Un diagramme de déploiement est une représentation visuelle de la disposition physique des artefacts logiciels sur le matériel du système. Il montre comment les différents composants logiciels, tels que les applications, modules, bases de données, etc., sont déployés sur le matériel physique, comme les serveurs, ordinateurs, réseaux, etc. Ce type de diagramme est utilisé pour visualiser et planifier l'infrastructure matérielle nécessaire pour exécuter les systèmes logiciels\cite{dep}.
+\subsection{Composants Clés d'un Diagramme de Déploiement}
+On defini les composant utilisés par la suite:
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{c}
+        \centering
+        \includegraphics[width=0.95\textwidth]{images/deploiment.png}
+    \end{tabular}
+    \caption{Clés d'un Diagramme de Déploiement}
+    \label{tab:dep}
+\end{table}
+\newline Dans ce qui suit, nous allons présenter le diagramme de déploiement
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/diag dep.png}
+    \caption{diagramme de déploiement}
+    \label{fig:ddb}
+\end{figure}
 \section{Présentation de notre logo}
 Notre idée pour le logo est le mot \textbf{"EASYCOM"} et un colis en mouvement rapide, symbolisant la rapidité et la simplicité que notre système apporte à l'écosystème
 \begin{figure}[H] 
@@ -2279,6 +2153,24 @@ Puisque le design joue un rôle important dans la satisfaction de l'utilisateur,
     \caption{Processus de conception}
     \label{fig:processe}
 \end{figure}
+\begin{enumerate}
+    \item \textbf{Rechercher écoute / Observation:} \begin{itemize}
+        \item \textbf{Activités: }Collecter des informations en écoutant et observant les utilisateurs (entretiens, enquêtes).
+        \item \textbf{But: }Comprendre les besoins et les problèmes des utilisateurs.
+    \end{itemize}
+    \item \textbf{Comprendre Reformuler / Acceptation:} \begin{itemize}
+        \item \textbf{Activités: }Analyser les données pour définir clairement les problèmes et besoins des utilisateurs.
+        \item \textbf{But: }Avoir une compréhension commune du problème à résoudre.
+    \end{itemize}
+    \item \textbf{Esquisser filaire / storyboards:} \begin{itemize}
+        \item \textbf{Activités: }Créer des esquisses, des wireframes et des storyboards pour visualiser les solutions potentielles.
+        \item \textbf{But: }Explorer différentes options de design.
+    \end{itemize}
+    \item \textbf{Concevoir Prototypage / Tests UX:} \begin{itemize}
+        \item \textbf{Activités: }Concevoir des prototypes et réaliser des tests utilisateurs pour recueillir des retours.
+        \item \textbf{But: }Affiner le design pour qu’il soit convivial et réponde aux besoins des utilisateurs.
+    \end{itemize}
+\end{enumerate}
 \subsection{Présentation des styles utilisés }
 \subsubsection{Typography}
 Nous avons choisi d'utiliser deux types de polices d'écriture : Segoe UI et Lato.
@@ -2500,8 +2392,182 @@ Cette interface de notre logiciel de gestion de stock permet d'ajouter des produ
 \section{Conclusion}
 Dans ce chapitre, nous avons présenté les différents outils et bibliothèques utilisés pour la réalisation de notre application.
 Par la suite, nous avons présenté notre logo et les différentes interfaces. Nous avons pris au sérieux de respecter au maximum, les standards de l’IHM pour la réaliser.
+
 %====================================>
-\chapter{Conclusion Générale}
+
+\chapter{Système de recommandation}
+\section{Introduction}
+Les systèmes de recommandation jouent un rôle crucial dans de nombreuses plateformes en ligne, des sites de commerce électronique aux services de streaming en passant par les réseaux sociaux. Leur objectif principal est de fournir des recommandations personnalisées, ce qui améliore l'expérience utilisateur et stimule l'engagement. Voici quelques points clés à savoir sur ces systèmes.
+\section{Définition}
+Les systèmes de recommandation sont des techniques algorithmiques visant à prédire les préférences ou les besoins d'un utilisateur pour des items (comme des produits, des services, des informations, etc.) et à recommander ceux qui pourraient être les plus pertinents ou intéressants pour lui.
+\newline Principaux types de systèmes de recommandation:
+\begin{enumerate}
+    \item \textbf{Filtrage collaboratif: }Ce type de système analyse les interactions passées des utilisateurs (par exemple, leurs évaluations, leurs achats, leurs clics) pour identifier des patterns et recommander des items similaires à ceux appréciés par d'autres utilisateurs ayant des goûts similaires.
+    \item \textbf{Filtrage basé sur le contenu: }Ces systèmes recommandent des items similaires à ceux que l'utilisateur a aimés par le passé, en se basant sur des caractéristiques ou des attributs des items eux-mêmes. Par exemple, recommander un film basé sur ses genres, ses acteurs ou son synopsis.
+    \item \textbf{Recommandation hybride: }Intégrant plusieurs approches, ces systèmes combinent filtrage collaboratif, filtrage basé sur le contenu ou d'autres techniques pour améliorer la précision et la pertinence des recommandations.
+\end{enumerate}
+\section{Classification des systèmes de recommandation}
+Les techniques de recommandation peuvent être classées de différentes manières. Parfois
+plusieurs termes sont utilisés pour désigner une même méthode ou approche. La classification la
+plus utilisée reposent sur trois types : filtrage basé sur le contenu, filtrage collaboratif et filtrage
+hybride (Adomavicius et Tuzhilin, 2005). En plus de ces deux approches, Robin Burke
+(Burke, 2002) propose de considérer trois autres approches : la recommandation basée sur les
+données démographiques, la recommandation basée sur la connaissance (knowledge-based) et la
+recommandation basée sur l'utilité (utility-based). Mais il note que ces trois approches sont des cas
+particuliers des approches classiques.
+Nous présentons dans la suite les approches basées sur le contenu et le filtrage collaboratif, puis les approches hybrides (figure \Ref{class}).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/classification.jpg}
+    \caption{Classification des systèmes de recommandation}\label{class}
+\end{figure}
+\section{Fonctionnement}
+\begin{enumerate}
+    \item \textbf{Collecte des données: }Les systèmes de recommandation recueillent des données sur les préférences des utilisateurs, telles que les achats précédents, les évaluations, les clics, les recherches, etc.
+    \item \textbf{Analyse des données: }En utilisant des algorithmes, ces systèmes analysent les données utilisateur pour trouver des modèles ou des similarités entre utilisateurs et articles.
+    \item \textbf{Génération de recommandations: }En se basant sur ces modèles, les systèmes de recommandation prédisent les éléments qui pourraient intéresser un utilisateur donné et leur recommandent ces éléments.
+\end{enumerate}
+la figure \ref{sr} illustre le processus de recommandation de produits similaires dans un système basé sur les interactions de l'utilisateur. Un produit visualisé par un utilisateur est analysé, et des produits similaires sont identifiés et ensuite recommandés à l'utilisateur.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/recommendation system.jpg}
+    \caption{processus de recommandation}\label{sr}
+\end{figure}
+\section{Objectifs du système de recommandation}
+\begin{itemize}
+    \item \textbf{Amélioration de l'expérience utilisateur: } Fournir des recommandations personnalisées pour chaque utilisateur afin d'améliorer la satisfaction et l'engagement.
+    \item \textbf{Augmentation des ventes: } Stimuler les ventes en proposant des produits pertinents susceptibles d'intéresser les utilisateurs.
+    \item \textbf{Gestion du cold-start: } Adresser le problème des nouveaux utilisateurs et des nouveaux produits pour lesquels il y a peu ou pas de données d'interaction.
+\end{itemize}
+\section{L'impact des recommandations personnalisées}
+Ajouter un système de recommandation à notre systeme “EASYCOM” peut avoir plusieurs impacts importants et bénéfiques
+\begin{enumerate}
+    \item \textbf{Amélioration de l'expérience utilisateur} \begin{itemize}
+             \item \textbf{Personnalisation: }les recommandations personnalisées rendent l'expérience utilisateur plus agréable et pertinente, augmentant ainsi l'engagement et la satisfaction des utilisateurs.
+             \item \textbf{Découverte de produits: }les utilisateurs peuvent découvrir des produits qu'ils n'auraient pas trouvés autrement, augmentant la variété de leur expérience d'achat.
+            \end{itemize}
+    \item \textbf{Augmentation des ventes et des revenus} \begin{itemize}
+        \item \textbf{Upselling et cross-selling: }les recommandations peuvent inciter les utilisateurs à acheter des produits complémentaires ou plus chers, augmentant ainsi le panier moyen
+        \item \textbf{Conversion: }des recommandations bien placées et pertinentes peuvent convertir les visiteurs en acheteurs plus efficacement.
+    \end{itemize}
+    \item \textbf{Fidélisation des clients} \begin{itemize}
+        \item \textbf{Engagement continu: }les utilisateurs sont plus susceptibles de revenir sur l'application si elle continue de leur proposer des produits pertinents et intéressants.
+        \item \textbf{Loyauté: }une expérience personnalisée et agréable peut fidéliser les clients, les incitant à revenir régulièrement.
+    \end{itemize}
+    \item \textbf{Optimisation du stock et des inventaires} \begin{itemize}
+        \item \textbf{Gestion des stocks: }En recommandant des produits en surstock, l'application peut aider à équilibrer l'inventaire.
+        \item \textbf{Prévisions de demande: }Les données sur les produits recommandés et achetés peuvent aider à prévoir les tendances de demande et à optimiser les commandes de stock.
+    \end{itemize}
+    \item \textbf{Avantage concurrentiel} \begin{itemize}
+        \item \textbf{Différenciation: }Offrir une expérience personnalisée peut distinguer l'application des concurrents qui n'ont pas de système de recommandation.
+        \item \textbf{Innovation: }Un système de recommandation peut positionner l'application comme innovante et à la pointe de la technologie
+    \end{itemize}
+\end{enumerate}
+\section{Utilisation de LightFM}
+LightFM est une bibliothèque Python populaire pour la construction de systèmes de recommandation. Elle combine les avantages du filtrage collaboratif et du filtrage basé sur le contenu.
+\section{Pourquoi LightFM ?}
+\subsection*{Points Forts de LightFM}
+\textbf{1.Flexibilité et Polyvalence}
+\begin{itemize}
+    \item \textbf{Approche Hybride: }LightFM combine les méthodes de filtrage collaboratif et de filtrage basé sur le contenu, ce qui permet de tirer parti des interactions utilisateur-élément et des caractéristiques des articles pour offrir des recommandations précises.
+    \item \textbf{Support de différentes pertes: }LightFM supporte plusieurs fonctions de perte (WARP, BPR, Logistic), permettant de choisir celle qui convient le mieux à nos objectifs.
+\end{itemize}
+\phantom{2.2}\textbf{2.Performance et Scalabilité}
+\begin{itemize}
+    \item \textbf{Efficacité de l'entraînement: }LightFM est optimisé pour être rapide et efficace, même sur des jeux de données volumineux.
+    \item \textbf{Précision des recommandations: }En utilisant des techniques de factorisation matricielle avancées, LightFM offre des recommandations de haute qualité, ce qui se traduit par une meilleure précision et un meilleur rappel.
+\end{itemize}
+\phantom{2.2}\textbf{3.Facilité d'intégration et d'utilisation}
+\begin{itemize}
+    \item \textbf{Interface simple: }La bibliothèque est conçue pour être facile à utiliser, avec une API claire et intuitive.
+    \item \textbf{Compatibilité: }LightFM s'intègre facilement avec d'autres outils et bibliothèques Python, facilitant ainsi son intégration dans notre pipeline existant.
+\end{itemize}
+
+\section{Méthode de calcul du modèle LightFM}
+LightFM utilise des techniques de factorisation matricielle combinées à des approches de filtrage collaboratif et de filtrage basé sur le contenu. Cette section détaille les méthodes de calcul sous-jacentes à ce modèle.
+\subsection{Factorisation matricielle}
+La factorisation matricielle est au cœur de LightFM. Elle consiste à décomposer la matrice d'interactions utilisateur-élément \( R \) en deux matrices de rang inférieur :  une matrice utilisateur \( U \) et une matrice élément \( V \).
+\begin{itemize}
+    \item Matrice des interactions \( R \): Représente les interactions (par exemple, évaluations, clics, achats) entre les utilisateurs et les articles.
+    \item Matrice utilisateur \( U \): Représente les facteurs latents des utilisateurs.
+    \item Matrice élément \( V \): Représente les facteurs latents des articles.
+\end{itemize}
+L'objectif est de trouver \( U \) et \( V \) telles que \( R \approx UV^T \).
+\subsection{Fonction de perte}
+LightFM supporte plusieurs fonctions de perte pour optimiser la factorisation, notamment WARP (Weighted Approximate-Rank Pairwise), BPR (Bayesian Personalized Ranking), et la perte logistique. Nous nous concentrerons sur la perte WARP, qui est souvent utilisée en pratique pour les systèmes de recommandation.
+\newline
+\textbf{Perte WARP} : 
+\newline
+La perte WARP est conçue pour optimiser directement le rang des éléments recommandés. Elle favorise les éléments bien classés par rapport aux éléments mal classés pour chaque utilisateur.
+\newline
+Formellement, pour chaque interaction observée \((u, i)\), où \(u\) est un utilisateur et \(i\) est un article avec une interaction positive, la perte WARP est définie comme : 
+
+\[
+\text{WARP}(u, i) = \sum_{j \in J} \max(0, 1 - \hat{r}_{ui} + \hat{r}_{uj})
+\]
+
+Où : 
+
+\begin{itemize}
+    \item \(\hat{r}_{ui}\) est le score prédit pour l'interaction entre l'utilisateur \(u\) et l'article \(i\).
+    \item \(\hat{r}_{uj}\) est le score prédit pour l'interaction entre l'utilisateur \(u\) et un article \(j\) négatif (non observé).
+    \item \(J\) est l'ensemble des échantillons d'articles négatifs.
+\end{itemize}
+
+Le but est de maximiser la différence entre les scores des interactions positives et négatives, en minimisant la fonction de perte.
+\subsection{Optimisation}
+L'optimisation est réalisée en utilisant une approche de descente de gradient stochastique. LightFM met à jour les matrices \( \mathbf{U} \) et \( \mathbf{V} \) de manière itérative pour minimiser la fonction de perte choisie.
+
+\begin{enumerate}
+    \item \textbf{Initialisation}: Les matrices \( \mathbf{U} \) et \( \mathbf{V} \) sont initialisées avec des valeurs aléatoires.
+    \item \textbf{Descente de Gradient}
+    \begin{itemize}
+        \item Pour chaque interaction positive \( (u, i) \), un élément négatif \( j \) est échantillonné.
+        \item Les gradients des paramètres \( \mathbf{U}_u \) et \( \mathbf{V}_i \) sont calculés et utilisés pour mettre à jour les vecteurs latents.
+    \end{itemize}
+\end{enumerate}
+\subsection{Prédiction}
+Les scores prédits pour les interactions utilisateur-élément sont calculés comme le produit scalaire des vecteurs latents de l'utilisateur et de l'article : 
+
+\[
+\hat{r}_{ui} = U_u \cdot V_i^T
+\]
+
+Où \(U_u\) est le vecteur de facteurs latents de l'utilisateur \(u\) et \(V_i\) est le vecteur de facteurs latents de l'article \(i\).
+
+\section{Implémentation en LightFM}
+Voici comment ces concepts sont implémentés dans LightFM
+\subsection{Chargement des données et création du modèle}
+Ce code charge les données Movielens en filtrant les évaluations d'au moins 4 étoiles, crée un modèle de recommandation LightFM en utilisant la fonction de perte WARP, et entraîne le modèle sur les données d'entraînement pendant 30 époques en utilisant 2 threads. Cela permet de prédire les préférences des utilisateurs pour un système de recommandation.
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/Chargement des données.png}
+    \caption{Chargement des données et création du modèle}
+    \label{fig: cdd}
+\end{figure}
+\subsection{Évaluation du modèle}
+Ce code évalue la précision du modèle de recommandation sur les données d'entraînement et de test en utilisant la métrique de précision à k pour k=10. Il calcule la moyenne de la précision sur les 10 premiers éléments recommandés pour chaque ensemble de données et affiche les résultats. Cela permet de mesurer l'efficacité du modèle dans les recommandations.
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/Évaluation du modèle.png}
+    \caption{Évaluation du modèle}
+    \label{fig: Évaluation du modèle}
+\end{figure}
+\subsection{Génération de recommandations}
+Ce code définit une fonction pour recommander des articles à des utilisateurs spécifiques en utilisant un modèle de recommandation. Il affiche les trois articles connus positifs et les trois meilleures recommandations pour chaque utilisateur spécifié. La fonction est ensuite appelée pour les utilisateurs avec les identifiants 3, 25 et 450.
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/Génération de recommandations.png}
+    \caption{Génération de recommandations}
+    \label{fig:Génération de recommandations}
+\end{figure}
+\section{Conclusion}
+Ce chapitre a exploré le fonctionnement des systèmes de recommandation, leurs types, et leurs objectifs. L'accent a été mis sur l'utilisation de LightFM pour créer un système de recommandation performant. Les raisons du choix de LightFM, ainsi que les méthodes de calcul du modèle, ont été détaillées, montrant comment ce système peut personnaliser les recommandations de manière efficace. Cette analyse a démontré l'importance des systèmes de recommandation dans l'amélioration de l'expérience utilisateur et la personnalisation des services.
+\newline
+Cependant, il est important de noter que la mise en place d'un système de recommandation peut être limitée par le manque de données utilisateur. Actuellement, en raison de cette pénurie de données, la réalisation complète du système de recommandation n'est pas possible. Il est prévu de le mettre en œuvre après avoir collecté suffisamment de données utilisateur pour garantir des recommandations précises et pertinentes.
+
+%====================================>
+\chapter{Conclusion générale}
 Ce mémoire a présenté le développement d'une plateforme Web, application mobile et un logiciel de gestion de stock, visant à améliorer l'écosystème commercial en Algérie. À travers une étude détaillée de ce dernier, nous avons identifié les besoins et les attentes des différents acteurs, y compris les grossistes, détaillants et entreprises.
 \newline\newline
 L'expression et l'analyse des besoins ont permis de définir clairement les fonctionnalités nécessaires pour notre système. Ces analyses ont mis en lumière les exigences fonctionnelles et techniques cruciales pour la réussite du projet. En nous basant sur ces analyses, nous avons conçu une architecture robuste et des interfaces utilisateur intuitives, assurant une utilisation efficace et une adoption facile par les utilisateurs finaux.
@@ -2512,10 +2578,10 @@ Le projet a réussi à développer une plateforme Web, une application mobile et
 \newline \newline
 En regardant vers l'avenir, nous prévoyons d'enrichir encore davantage notre plateforme en ajoutant un système de recommandation avancé et en améliorant l'interface utilisateur.
 \begin{itemize}
-    \item \textbf{Système de recommandation avancé:}Ce système permettra de fournir des recommandations personnalisées aux utilisateurs, basées sur leurs comportements d'achat, leurs préférences et les tendances du marché. Cela aidera les détaillants à mieux anticiper les besoins des clients et à optimiser leurs approvisionnements.
-    \item \textbf{Amélioration de l'interface utilisateur:}Nous envisageons de rendre l'interface utilisateur encore plus intuitive et conviviale, en intégrant des fonctionnalités modernes et des designs interactifs. Cela comprendra une navigation simplifiée, des tableaux de bord personnalisables et des outils de visualisation des données améliorés.
-    \item \textbf{Systeme de notifications intelligent:}Un système de notifications intelligent sera mis en place pour alerter les utilisateurs en temps réel sur les événements critiques tels que les ruptures de stock, les nouvelles offres, l’état des commandes et les changements de prix. Ce système permettra aux utilisateurs de réagir rapidement aux changements du marché et de prendre des décisions informées.
-    \item \textbf{Systeme d’abonement pour les vendeurs:}Après une période de 6 mois d'utilisation gratuite, les vendeurs devront souscrire à un abonnement pour continuer à utiliser notre plateforme. Cet abonnement donnera accès à des fonctionnalités avancées telles que les annonces d'achat, qui signalent les besoins des acheteurs, la réservation de produits auprès d'autres vendeurs et beaucoup d'autres fonctionnalités. Ce modèle d’abonnement encouragera une adoption plus large et une utilisation continue de la plateforme, tout en générant des revenus récurrents pour soutenir le développement futur.
+    \item \textbf{Système de recommandation avancé: }Ce système permettra de fournir des recommandations personnalisées aux utilisateurs, basées sur leurs comportements d'achat, leurs préférences et les tendances du marché. Cela aidera les détaillants à mieux anticiper les besoins des clients et à optimiser leurs approvisionnements.
+    \item \textbf{Amélioration de l'interface utilisateur: }Nous envisageons de rendre l'interface utilisateur encore plus intuitive et conviviale, en intégrant des fonctionnalités modernes et des designs interactifs. Cela comprendra une navigation simplifiée, des tableaux de bord personnalisables et des outils de visualisation des données améliorés.
+    \item \textbf{Systeme de notifications intelligent: }Un système de notifications intelligent sera mis en place pour alerter les utilisateurs en temps réel sur les événements critiques tels que les ruptures de stock, les nouvelles offres, l’état des commandes et les changements de prix. Ce système permettra aux utilisateurs de réagir rapidement aux changements du marché et de prendre des décisions informées.
+    \item \textbf{Systeme d’abonement pour les vendeurs: }Après une période de 6 mois d'utilisation gratuite, les vendeurs devront souscrire à un abonnement pour continuer à utiliser notre plateforme. Cet abonnement donnera accès à des fonctionnalités avancées telles que les annonces d'achat, qui signalent les besoins des acheteurs, la réservation de produits auprès d'autres vendeurs et beaucoup d'autres fonctionnalités. Ce modèle d’abonnement encouragera une adoption plus large et une utilisation continue de la plateforme, tout en générant des revenus récurrents pour soutenir le développement futur.
 \end{itemize}
 
 Ces améliorations visent à rendre la plateforme non seulement plus performante mais également plus agréable à utiliser, renforçant ainsi l'engagement des utilisateurs et l'efficacité opérationnelle.
@@ -2532,7 +2598,7 @@ Art. 3. - il est entendu, au sens de la présente loi par:
     \item \textbf{agent économique :} tout producteur, commerçant,artisan ou prestataire de services, quel que soit son statut juridique qui exerce dans le cadre de son activité professionnelle habituelle ou en vue de la réalisation de on objet statutaire.
     \item \textbf{Consommateur :} toute personne physique ou morale qui acquiert ou utilise, à des fins excluant tout caractère professionnel, des biens ou des services mis en vente ou offerts
 \end{enumerate}
-Art. 4. — Le vendeur doit, obligatoirement, informer les clients sur les prix, les tarifs et les conditions de vente des biens et services.\cite{journal41}
+Art. 4. — Le vendeur doit, obligatoirement, informer les clients sur les prix, les tarifs et les conditions de vente des biens et services\cite{journal41}.
 \section*{JOURNAL OFFICIEL DE LA  REPUBLIQUE ALGERIENNE N 80(11 décembre 2005)}
   Art. 3.  La facture doit comporter les  mentions, ci-après ,  se  rapportant  à  lagent  économique :
 \newline\textbf{1- Mentions relatives au vendeur :}
@@ -2576,10 +2642,10 @@ Si lacheteur est un consommateur, la facture doit mentionner ses nom, prénom (s
 Art. 14.  Il est admis lutilisation du bon de livraison en
  remplacement de la facture  pour les transactions
  commerciales répétitives et régulières portant sur la vente
- de biens à un même client. \cite{journal80}
+ de biens à un même client\cite{journal80}.
 
 
 \printbibliography %Prints bibliography
- \addcontentsline{toc}{chapter}{webographie}
+ \addcontentsline{toc}{chapter}{Webographie}
 
 \end{document}
